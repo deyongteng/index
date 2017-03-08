@@ -257,6 +257,7 @@ img {
 .use > span > img {
   width: 3.125rem;
   height: 3.125rem;
+  border-radius: 20%;
 }
 .use > span {
   display: inline-block;
