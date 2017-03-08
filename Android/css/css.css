@@ -262,6 +262,19 @@ img {
   line-height: 0.625rem;
   color: #fff;
 }
+.lianJ > img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+.lianJ > span {
+  display: inline-block;
+  width: 100%;
+  height: 0.625rem;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 0.625rem;
+  color: #fff;
+}
 #view {
   width: 20rem;
   height: 0;

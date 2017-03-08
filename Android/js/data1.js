@@ -1,7 +1,7 @@
 var bgmS=["./bgm/bgm.mp3"];
 var bgmBg=["./bgm/music.png","./bgm/music_pause.png"];
-var data1=["./img/logo.png","./img/qqlogo.png","./animation/img1/title/titleBg1.png","./img/photo.png","./img/photo.png"];
-var texts=["VR安踏","QQ","animation","相册","相册"];
+var data1=["./img/logo.png","./img/qqlogo.png","./animation/img1/title/titleBg1.png","./img/Ctrip_logo.png"];
+var texts=["VR安踏","QQ","animation","携程"];
 var ico=["./img/qqlogo.png","./img/topLogo0.png"];
 var iocF=["topLogo1.png","topLogo2.png","topLogo3.png"];
 var ioctext=["新朋友","群聊","公众号"];
@@ -61,10 +61,13 @@ var  animation={
 					"./animation/img2/earth.png"
 				],
 				img2Text:[
-					["我的规划"],
-					["2016年已经到来，为展现并提示自己的技能、能够为公司带来更大利润，能够更加完善自己、能够创新更多，所以在新的一年里总结了过往经验，归纳为二。"],
-					["一、树立一个方向：有方向才能知道自己该往哪走、往哪完善、怎么给公司带来利润"],
-					["二、从哪里出发：1.了解公司需求，了解工作环境，了解前沿技术与行情动态；2.从用户体验出发优化产品，研究对公司有利的技术，做高性能低消耗；3.发现问题、分析问题、解决问题、与团队共进退；"]
+					["我的技能"],
+					["•掌握技能：HTML5、CSS、CSS3、JS、ajax。"],
+					["•掌握库与框架: jQery、Vue、less、iScroll、TwennMax。"],
+					["•PC端：最低兼容IE6，以及各大主流浏览器。"],
+					["•布局：响应式布局、瀑布流、圣杯布局以及自定义布局。"],
+					["•移动端：兼容Android、IOS系统；兼容移动端浏览器：QQ、微信、Firefox、chrome、UC、猎豹等"],
+					["•爱研究、追求完美、并且优化产品，尽量减少资源的消耗。"],
 				],
 				img3:[
 					"./animation/img3/bg1.png",

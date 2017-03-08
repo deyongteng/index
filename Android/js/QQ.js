@@ -1,4 +1,9 @@
 function qqIndex(){
+	document.addEventListener("touchstart",function(ev){
+		ev.preventDefault();
+	},{
+		passive:false
+	});
 	$(".use").eq(1).append("</div><div class='qqBox'></div>");
 				
 	//登录面板

@@ -1,0 +1,585 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	height: 100%;
+	overflow: auto;
+	background: #eeeeed;
+}
+.head{
+	width: 100%;
+	height: 1.296875rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/head_bg.png) repeat-x;
+	background-size: 100% 1.296875rem;
+	z-index: 1;
+}
+.form{
+	width: 8.1875rem;
+	height: 0.8125rem;
+	position: relative;
+	top: 0.171875rem;
+	left: 0.25rem;
+	float: left;
+	
+}
+.input1{
+	width: 8.125rem;
+	height: 0.75rem;
+	border:0.015625rem solid #000;
+	vertical-align: top;
+	border-radius: 0.140625rem;
+	font-size: 0.375rem;
+	box-shadow: 0 0 0.09375rem 0.09375rem rgba(149, 149, 0, 0.3);
+}
+.seek{
+	position: absolute;
+	top: 0.140625rem;
+	left: 0.25rem;
+	width: 7.3125rem;
+	line-height: 0.359375rem;
+	padding-top: 0.078125rem;
+	color: #53545e;
+	font-size: 0.375rem;
+	background: url(../img/seek.png) no-repeat;
+	background-size: 0.40625rem 0.390625rem;
+	padding-left: 0.546875rem;
+}
+.my{
+	display:block;
+	float: right;
+	width: 0.859375rem;
+	height: 1.125rem;
+	background: url(../img/my.png) no-repeat 0.296875rem 0.09375rem;
+	background-size: 0.859375rem 1.125rem;
+	padding: 0.09375rem 0.375rem 0.078125rem 0.296875rem;
+}
+#contentBox{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:1.296875rem;
+	left: 0;
+}
+.content{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+}
+/* 广告区 */
+.ad{
+	width: 100%;
+	height: 2rem;
+	border-top: 2px solid #cccccc;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 0.125rem;
+}
+.bg_img{
+	display: block;
+	width:100%;
+	height: 2rem;
+	background:url(../img/ad.png) no-repeat;
+	background-size:100%  2rem;
+
+}
+.dot{
+	position: absolute;
+	bottom: 0.296875rem;
+	left: 3.28125rem;
+	width: 3.09375rem;
+	height: 0.25rem;
+}
+.dot1{
+	display: block;
+	width: 0.265625rem;
+	height: 0.25rem;
+	background: #fdb2d6;
+	border-radius: 3.078125rem;
+	float: left;
+	margin-right: 0.296875rem;
+}
+/* 出行区 */
+.trip_box{
+	width: 9.75rem;
+	margin: 0 auto;
+	margin-bottom: 0.15625rem;
+}
+.type_box{
+	width: 9.75rem;
+	height: 2.8125rem;
+	margin-bottom: 0.125rem;
+}
+.theme{
+	width: 3.25rem;
+	height: 2.8125rem;
+	float: left;
+	margin-right: 0.03125rem;
+}
+.theme_bg{
+	width: 3.25rem;
+	height: 2.8125rem;
+}
+.theme2{
+	float: left;
+	margin-bottom: 0.03125rem;
+}
+.tavern{
+	display: block;
+	float: left;
+	width: 3.21875rem;
+	margin-right: 0.03125rem;
+}
+.corner{
+	border-top-right-radius: 0.15625rem;
+}
+.theme_bg2{
+	width: 3.21875rem;
+	height: 1.40625rem;
+}
+.theme_bg3{
+	width:3.21875rem;
+	height: 1.375rem;
+}
+.play_box{
+	display: block;
+	width: 3.25rem;
+	height: 1.40625rem;
+	margin-bottom: 0.03125rem;
+}
+.play_content{
+	width:3.25rem;
+	height: 1.40625rem;
+}
+.play_content2{
+	width:3.25rem;
+	height: 1.375rem;
+}
+/*综合区*/
+.synthesize_box{
+	width: 9.75rem;
+	margin: 0 auto;
+	margin-bottom: 0.28125rem;
+	background:#fff;
+}
+.synthesize_content{
+	width: 2.265625rem;
+	float: left;
+	margin-right: 0.171875rem;
+}
+.icl_box{
+	display: block;
+	width: 2.265625rem;
+	height: 1.75rem;
+	padding-top: 0.4375rem;
+	text-align: center;
+	font-size: 0.40625rem;
+}
+.icl_content{
+	display: block;
+	width: 0.84375rem;
+	height: 0.75rem;
+	background:url(../img/icr.png) no-repeat 0 0;
+	background-size:0.84375rem  6.25rem;
+	margin: 0 auto;
+}
+.icl_text{
+	line-height: 0.96875rem;
+	color: #060607;
+}
+.img1{
+	background:url(../img/icr.png) no-repeat 0 -0.765625rem;
+	background-size:0.84375rem  6.25rem;
+}
+.img2{
+	background:url(../img/icr.png) no-repeat 0 -1.546875rem;
+	background-size:0.84375rem  6.25rem;
+}
+.img3{
+	background:url(../img/icr.png) no-repeat 0 -2.34375rem;
+	background-size:0.84375rem  6.25rem;
+}
+.img4{
+	background:url(../img/icr.png) no-repeat 0 -5.453125rem;
+	background-size:0.84375rem  6.25rem;
+}
+.img5{
+	background:url(../img/icr.png) no-repeat 0 -4.671875rem;
+	background-size:0.84375rem  6.25rem;
+}
+.img6{
+	background:url(../img/icr.png) no-repeat 0 -3.890625rem;
+	background-size:0.84375rem  6.25rem;
+}
+.img7{
+	background:url(../img/icr.png) no-repeat 0 -3.125rem;
+	background-size:0.84375rem  6.25rem;
+}
+/*旅游推荐*/
+.favorable_box{
+	width: 9.53125rem;
+	padding:0.34375rem 0.234375rem 0.578125rem;
+	border-top: 0.015625rem solid #dddddd;
+	border-bottom: 0.015625rem solid #dddddd;
+	margin-bottom: 0.265625rem;
+	background: #fff;
+}
+.title{
+	width: 9.5rem;
+	height: 0.625rem;
+	margin-bottom: 0.40625rem;
+}
+.head_title{
+	display: block;
+	width: 1.875rem;
+	height: 0;
+	padding-top: 0.625rem;
+	overflow: hidden;
+	background: url(../img/tite.png) no-repeat;
+	float: left;
+	background-size:1.765625rem 0.625rem;
+}
+.get{
+	display: block;
+	width: 3.203125rem;
+	height: 0;
+	padding-top: 0.625rem;
+	overflow: hidden;
+	background: url(../img/title2.png) no-repeat;
+	background-size: 3.203125rem 0.625rem;
+	float: right;
+}
+.recommend_box{
+	width: ;
+}
+.recommend_left{
+	width: 4.6875rem;
+	margin-right: 0.390625rem;
+	float: left;
+}
+.type{
+	display: block;
+	width: 4.6875rem;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.Maldives{
+	width: 4.6875rem;
+	height: 3.125rem;
+	margin-bottom: 0.125rem;
+}
+.hot{
+	width: 1.4375rem;
+	height: 0.625rem;
+	background: #ff3055;
+	color: #ffeeee;
+	font-size: 0.34375rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 0.625rem;
+}
+.title_1{
+	display: block;
+	line-height: 0.671875rem;
+	font-size: 0.40625rem;
+	color: #060607;
+	text-indent: 0.15625rem;
+}
+.price{
+	height: 0.6875rem;
+	color:#fd4c52;
+}
+.sign{
+	display: block;
+	float: left;
+	font-size:0.265625rem;
+	margin-left: 0.25rem;
+	margin-top: 0.25rem;
+}
+.digit{
+	display: block;
+	line-height: 0.6875rem;
+	font-size: 0.421875rem;
+	float: left;
+	
+}
+.rebate{
+	display: block;
+	width: 1.359375rem;
+	height: 0.40625rem;
+	background: #fd4c52;
+	border-radius: 0.1875rem;
+	font-size: 0.375rem;
+	color:#fff;
+	line-height: 0.40625rem;
+	padding-top: 0.03125rem;
+	float:left;
+	margin:0.125rem 0 0 0.1875rem;
+	text-align: center;
+}
+.recommend_right{
+	width: 4.421875rem;
+	float: left;
+	vertical-align: top;
+}
+.else{
+	display:block;
+	height: 2.34375rem;
+	position: relative;
+	font-size: 0.40625rem; ;
+	top: 0;
+	left: 0;
+	margin-top: 0.25rem;
+	margin-bottom: 0.375rem;
+}
+.else_text{
+	display: block;
+	line-height: 0.625rem;
+	font-size: 0.40625rem;
+	color: #ff3055;
+	vertical-align: top;
+}
+.else_text2{
+	display: block;
+	line-height: 0.625rem;
+	font-size: 0.40625rem;
+	color: #3d3e40;
+}
+.gold{
+	width: 1.6875rem;
+	height: 2.15625rem;
+	background:url(../img/gold.png) no-repeat;
+	background-size: 1.6875rem 2.15625rem;
+	position: absolute;
+	right: 0.0625rem;
+	bottom:0.0625rem
+}
+.classify{
+	display: block;
+	width: 2rem;
+	float: left;
+	margin-right: 0.40625rem;
+}
+.type1{
+	line-height: 0.65625rem;
+	font-size: 0.40625rem;
+	color: #6daefd;
+}
+.classify_content{
+	display: block;
+	float: left;
+}
+.price_box{
+	display: block;
+	line-height: 0.5625rem;
+	color: #53545e;
+}
+.price1{
+	color:#6daefd;
+	font-size: 0.34375rem;
+}
+.img_box{
+	width: 1.984375rem;
+	height: 1.328125rem;
+}
+.yanse{
+	color:#5fcd67;
+}
+/*热门活动*/
+.exercise_box{
+	width: 100%;
+	border-top: 0.015625rem solid #dddddd;
+	background: #fff;
+	margin-bottom: 0.25rem;
+}
+.title{
+	width: 9.515625rem;
+	height: 0.625rem;
+	margin-bottom: 0.421875rem;
+}
+.title2{
+	margin-left: 0.25rem;
+}
+.hd{
+	display: block;
+	width: 3.71875rem;
+	height: 0;
+	padding-top: 0.625rem;
+	overflow: hidden;
+	background: url(../img/huodong.png) no-repeat;
+	background-size:3.71875rem 0.625rem ;
+	font-size: 0.5rem;
+}
+.fuli{
+	display: block;
+	width: 3.203125rem;
+	height: 0;
+	padding-top: 0.625rem;
+	overflow: hidden;
+	background: url(../img/fuli.png) no-repeat;
+	background-size:3.203125rem 0.625rem ;
+}
+.activity_box{
+	width: 100%;
+	/*padding-left: 0.25rem;*/
+	border-top: 0.015625rem solid #dddddd;
+}
+.theme_box{
+	width: 4.734375rem;
+	height: 4.75rem;
+	padding-top: 0.25rem;
+	border-right:0.015625rem solid #dddddd;
+	float: left;
+	margin-left: 0.25rem;
+}
+.theme_img1{
+	width: 4.734375rem;
+	height: 4.75rem;
+}
+.theme_box2{
+	width: 4.75;
+	height: 4.75rem;
+	padding-top: 0.25rem;
+	float: left;
+}
+.satchel_box{
+	display: block;
+	border-bottom:0.015625rem solid #dddddd;
+}
+.satchel{
+	width: 4.75rem;
+	height: 2.234375rem;
+}
+.vacation1{
+	width: 4.75rem;
+	height: 2.515625rem;
+}
+.privilege1{
+	width: 100%;
+	padding-left: 0.25rem;
+	height: 2.515625rem;
+	border-top: 0.015625rem solid #dddddd;
+	border-bottom:0.015625rem solid #dddddd;
+}
+.shen{
+	display: inline-block;
+	margin-left: 0.015625rem;
+	border-right: 0.015625rem solid #dddddd;
+}
+.province1{
+	width: 4.71875rem;
+	height: 2.5rem;
+}
+.shen1{
+	border: none;
+	margin-left: ;
+}
+/*其他服务*/
+.consult{
+	width:10rem ;
+	height: 1.5625rem;
+	border-top:0.015625rem solid #dddddd;
+	border-bottom:0.015625rem solid #dddddd;
+	background: #fff;	
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 0.25rem;
+}
+.consult_img{
+	width:10rem ;
+	height: 1.5625rem;
+}
+.consult_content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:10rem ;
+	height: 1.5625rem;
+}
+.clear{
+	display: block;
+	height:0;
+	float: left;
+	font-size: 0.3125rem;
+	overflow: hidden;
+}
+.connect{
+	width:3.28125rem;
+	padding-top: 1.5625rem;
+	margin-left: 0.265625rem;
+}
+.client{
+	width: 3.671875rem;
+	padding-top: 1.5625rem;
+	font-size: 0.3125rem;
+}
+.my2{
+	width: 2.734375rem;
+	padding-top: 1.5625rem;
+}
+.kind{
+	width: 5.375rem;
+	height:0.4375rem ;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.kind .bg_11{
+	background: none;
+}
+.kind_content{
+	display: inline-block;
+	line-height: 0.4375rem;
+	padding-top: 0.0625rem;
+	font-size: 0.34375rem;
+	vertical-align: top;
+	padding-right: 0.234375rem;
+	background: url(../img/gang.png) no-repeat right;
+	background-size: 0.046875rem 0.4375rem;
+	float: left;
+	margin-right: 0.25rem;
+	color: #6d6d6f;
+}
+.teng{
+	height: 1.125rem;
+	font-size: 0.34375rem;
+	text-align: center;
+	line-height: 1.125rem;
+}
+/*结尾*/
+.ending_box{
+	width: 100%;
+	height: 1.375rem;
+	background: url(../img/ending_img.png) no-repeat;
+	background-size: 10rem 1.375rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.link2{
+	display: block;
+	width: 1.8125rem;
+	height: 1.375rem;
+	float: left;
+}
+.link2_left{
+	margin-left: 0.21875rem;
+}
+.link3{
+	width: 1.921875rem;
+}
+.link4{
+	width: 2.109375rem;
+}
+.link5{
+	width: 1.90625rem;
+}
