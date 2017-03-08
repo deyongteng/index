@@ -120,30 +120,30 @@ var obj = {
 	$("#use_box").html(str);
 	 index=$(this).index();
 	obj.onoff=true;
-	$(".use").on("touchstart",function(ev){
-		var index=$(this).index();
+//	$(".use").on("touchstart",function(ev){
+//		var index=$(this).index();
 		if(index===0){
 			if(obj.onoff){
 				obj.onoff=false;
 				vrAnTa();
 			}
 		}
-		if(index===1){
-			if(obj.onoff){
+//		if(index===1){
+//			if(obj.onoff){
+//				$("#menu").show();
 				obj.onoff=false;
 				qqIndex();
-			}
-		}
+//			}
+//		}
 		if(index===2){
 			if(obj.onoff){
+				$("#menu").show();
 				obj.onoff=false;
+				
 				animationD();
 			}
 		}
-		if(index===3){
-			
-		}
-	});
+//	});
 })()
 
 	

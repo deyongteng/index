@@ -1,9 +1,4 @@
 function qqIndex(){
-	document.addEventListener("touchstart",function(ev){
-		ev.preventDefault();
-	},{
-		passive:false
-	});
 	$(".use").eq(1).append("</div><div class='qqBox'></div>");
 				
 	//登录面板
@@ -110,17 +105,17 @@ function qqIndex(){
     });
 	
 	//阻止冒泡
-	document.querySelectorAll('input').forEach(function(obj){
-	  obj.addEventListener('touchstart', function(ev) {
-	    ev.stopPropagation();
-	  }, false);
-	});
-	
-	document.querySelectorAll('a').forEach(function(obj){
-	  obj.addEventListener('touchstart', function(ev) {
-	    ev.stopPropagation();
-	  }, false);
-	});
+//	document.querySelectorAll('input').forEach(function(obj){
+//	  obj.addEventListener('touchstart', function(ev) {
+//	    ev.stopPropagation();
+//	  }, false);
+//	});
+//	
+//	document.querySelectorAll('a').forEach(function(obj){
+//	  obj.addEventListener('touchstart', function(ev) {
+//	    ev.stopPropagation();
+//	  }, false);
+//	});
 	
 	//登录验证
 	$(".subm").on("touchstart",function(){
@@ -220,6 +215,11 @@ function qqIndex(){
 		},400,function(){
 			loadinImg.css("-webkit-animation-play-state","paused");
 			loadinImg.css("animation-play-state","paused");
+			document.addEventListener("touchstart",function(ev){
+				ev.preventDefault();
+			},{
+				passive:false
+			});
 		});
 	}
 
@@ -523,5 +523,49 @@ function qqIndex(){
 				});
 			}
 		}
-	}); 
+	});
+	
+	//关闭按钮
+	var setValueY="";
+	var getStartY="";
+	var getStartX="";
+	var getTop;
+	var getLeft;
+	var setLeft=0;
+	var setTop=0;
+	var onoff=true;
+	var menu=document.querySelector(".menu");
+	
+	menu.addEventListener("touchstart",function(ev){
+		getStartY=ev.changedTouches[0].pageY;
+		getStartX=ev.changedTouches[0].pageX;
+		getLeft=css(menu,"left");
+		getTop=css(menu,"top");
+		onoff=true;
+	});
+	
+	menu.addEventListener("touchmove",function(ev){
+		onoff=false;
+		var getMoveY="";
+		var getMoveX="";
+		
+		getMoveY=ev.changedTouches[0].pageY;
+		getMoveX=ev.changedTouches[0].pageX;
+		setValueY=getMoveY-getStartY;
+		setValueX=getMoveX-getStartX;
+		
+		setTop=getTop+setValueY;
+		setLeft=getLeft+setValueX;
+		
+		css(menu,"left",setLeft);
+		css(menu,"top",setTop);
+		
+	});
+	menu.addEventListener("touchend",function(){
+		if(onoff){
+			obj.onoff=true;
+			$("#menu").hide();
+			$(".use").eq(1).children().eq(2).remove();
+		}
+	});
 }

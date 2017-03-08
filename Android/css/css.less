@@ -110,36 +110,35 @@ img{
     overflow: hidden;
     display: none;
 }
-#menu{
+.menu{
     width: 28/@rem;
     height: 28/@rem;
-    background:rgba(255,255,255,0.7);
-    border: 1px solid #000000;
+    background:url(../img/close.png) no-repeat;
+    background-size:100% 100% ;
     border-radius: 50%;
     position: absolute;
-    left: 0;
-    top: 0;
+    right: 5%;
+    top: 5%;
     z-index: 100;
-    display: none;
+//  display: none;
 }
 
 .lockScreen{
-    width: 50/@rem;
-    height: 50/@rem;
+    width: 40/@rem;
+    height: 40/@rem;
     position: absolute;
-    left: 0px;
+    right: 0px;
     top: 0px;
     text-align: center;
-    line-height: 50/@rem;
-    font-size: 20/@rem;
+    line-height: 40/@rem;
+    font-size: 16/@rem;
+    font-family: "微软雅黑";
     color: #0D0A15;
     background: rgba(255,235,255,0.7);
     border-radius:50%;
     -webkit-transform:scale(0.1) ;
     transform:scale(0.1);
-    display: none;
-    transition: 0.5s;
-   
+   display: none;
 }
 /*遮罩层*/
 #shade{
@@ -267,8 +266,12 @@ img{
     height: 10/@rem;
     text-align: center;
     font-size: 12/@rem;
+    font-family: "微软雅黑";
     line-height:10/@rem;
     color: #fff;
+}
+.use:nth-of-type(3)>span{
+    font-family: arial;
 }
 .lianJ>img{
     width:50/@rem;
@@ -1798,8 +1801,10 @@ img{
     width: 224/@rem;
     height:  150/@rem;
 }
-.qqBox2,
+//.qqBox2,
+//.logon,
+//.logon1,
 #shade,
 #shade1{
-//  display: none;
+    display: none;
 }

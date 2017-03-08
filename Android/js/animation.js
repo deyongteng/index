@@ -15,14 +15,15 @@ function animationD(){
 			if(typeof(data[i])=="string"){
 				img.src=data[i];
 				img.onload=function(){
-				nub++;
-				$(".logoText").html("已加载"+(Math.floor(nub/49*100))+"%");
-				if(nub===49){
-					$(".loading").hide();
-					$(".Modular").eq(0).show();
-					diYiPingDh();//第一屏动画
+					nub++;
+					$(".logoText").html("已加载"+(Math.floor(nub/49*100))+"%");
+					if(nub===49){
+						$(".loading").hide();
+						$(".loading").css("z-index","0");
+						$(".Modular").eq(0).show();
+						diYiPingDh();//第一屏动画
+					}
 				}
-			}
 			}
 			
 		}
@@ -478,6 +479,50 @@ function animationD(){
 			},500,function(){
 				jQ_Modular.eq(num+1).css("top",height);
 			});
+		}
+	});
+	
+	//关闭按钮
+	var setValueY="";
+	var getStartY="";
+	var getStartX="";
+	var getTop;
+	var getLeft;
+	var setLeft=0;
+	var setTop=0;
+	var onoff=true;
+	var menu=document.querySelector(".menu");
+	
+	menu.addEventListener("touchstart",function(ev){
+		getStartY=ev.changedTouches[0].pageY;
+		getStartX=ev.changedTouches[0].pageX;
+		getLeft=css(menu,"left");
+		getTop=css(menu,"top");
+		onoff=true;
+	});
+	
+	menu.addEventListener("touchmove",function(ev){
+		onoff=false;
+		var getMoveY="";
+		var getMoveX="";
+		
+		getMoveY=ev.changedTouches[0].pageY;
+		getMoveX=ev.changedTouches[0].pageX;
+		setValueY=getMoveY-getStartY;
+		setValueX=getMoveX-getStartX;
+		
+		setTop=getTop+setValueY;
+		setLeft=getLeft+setValueX;
+		
+		css(menu,"left",setLeft);
+		css(menu,"top",setTop);
+		
+	});
+	menu.addEventListener("touchend",function(){
+		if(onoff){
+			obj.onoff=true;
+			$("#menu").hide();
+			$(".use").eq(2).children().eq(2).remove();
 		}
 	});
 }

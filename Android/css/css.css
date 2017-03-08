@@ -113,34 +113,33 @@ img {
   overflow: hidden;
   display: none;
 }
-#menu {
+.menu {
   width: 1.75rem;
   height: 1.75rem;
-  background: rgba(255, 255, 255, 0.7);
-  border: 1px solid #000000;
+  background: url(../img/close.png) no-repeat;
+  background-size: 100% 100% ;
   border-radius: 50%;
   position: absolute;
-  left: 0;
-  top: 0;
+  right: 5%;
+  top: 5%;
   z-index: 100;
-  display: none;
 }
 .lockScreen {
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 2.5rem;
+  height: 2.5rem;
   position: absolute;
-  left: 0px;
+  right: 0px;
   top: 0px;
   text-align: center;
-  line-height: 3.125rem;
-  font-size: 1.25rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  font-family: "微软雅黑";
   color: #0D0A15;
   background: rgba(255, 235, 255, 0.7);
   border-radius: 50%;
   -webkit-transform: scale(0.1);
   transform: scale(0.1);
   display: none;
-  transition: 0.5s;
 }
 /*遮罩层*/
 #shade {
@@ -259,8 +258,12 @@ img {
   height: 0.625rem;
   text-align: center;
   font-size: 0.75rem;
+  font-family: "微软雅黑";
   line-height: 0.625rem;
   color: #fff;
+}
+.use:nth-of-type(3) > span {
+  font-family: arial;
 }
 .lianJ > img {
   width: 3.125rem;
@@ -1826,4 +1829,8 @@ h3 {
 .Worke1Box > img {
   width: 14rem;
   height: 9.375rem;
+}
+#shade,
+#shade1 {
+  display: none;
 }

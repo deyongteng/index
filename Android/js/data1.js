@@ -1,7 +1,7 @@
 var bgmS=["./bgm/bgm.mp3"];
 var bgmBg=["./bgm/music.png","./bgm/music_pause.png"];
-var data1=["./img/logo.png","./img/qqlogo.png","./animation/img1/title/titleBg1.png","./img/Ctrip_logo.png"];
-var texts=["VR安踏","QQ","animation","携程"];
+var data1=["./img/logo.png","./img/qqlogo.png","./animation/img1/title/titleBg1.png"];
+var texts=["VR安踏","QQ","animation"];
 var ico=["./img/qqlogo.png","./img/topLogo0.png"];
 var iocF=["topLogo1.png","topLogo2.png","topLogo3.png"];
 var ioctext=["新朋友","群聊","公众号"];
