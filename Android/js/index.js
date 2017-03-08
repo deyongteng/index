@@ -110,11 +110,7 @@ var obj = {
 //生成内部应用
 	var str="";
 	for (var i = 0; i < data1.length; i++) {
-		if(i===3){
-			str+="<div class='use' data-id="+i+"><a class='lianJ' href='./Ctrip/html/index.html'><img src="+data1[i]+" /><span>"+texts[i]+"</span></a></div>";
-		}else{
-			str+="<div class='use' data-id="+i+"><img src="+data1[i]+" /><span>"+texts[i]+"</span></div>";
-		}
+		str+="<div class='use' data-id="+i+"><span><img src="+data1[i]+" /></span><span>"+texts[i]+"</span></div>";
 		
 	}
 	$("#use_box").html(str);
