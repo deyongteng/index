@@ -180,6 +180,7 @@ img {
   background-clip: text;
   background-position: -35rem 0;
   animation: 2.5s move infinite linear;
+  display: none;
 }
 /*==================================================================================*/
 #time_box {
@@ -189,6 +190,7 @@ img {
   top: 2.5rem;
   left: 50%;
   margin-left: -5rem;
+  display: none;
 }
 #time {
   width: 100%;
