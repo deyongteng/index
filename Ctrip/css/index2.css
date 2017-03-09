@@ -1,0 +1,732 @@
+body{
+	background: #fff;
+}
+.main_box{
+	margin-bottom: 17px;
+}
+.content{
+	margin-top: 16px;
+}
+.content_left{
+	width: 379px;
+	float: left;
+	margin-right:20px;
+}
+/* 表单 */
+.listing{
+	width: 370px;
+	height: 358px;
+	padding: 0px 4px;
+	background: #2477e1;
+	margin-bottom: 15px;
+}
+.titel_airplane{
+	height: 44px;
+	padding-left: 8px;
+	padding-top: 1px;
+	line-height: 44px;
+	background: url(../img/icr_airplane.png) no-repeat 8px;
+	text-indent: 28px;
+	color: #fff;
+}
+.swop{
+	width: 370px;
+	position: relative;
+}
+.rade{
+	display: block;
+	position: absolute;
+	width: 15px;
+	height: 45px;
+	background:url(../img/trade.png) no-repeat; 
+	right: 19px;
+	top: 17px;
+}
+.form{
+	width: 370px;
+	height: 303px;
+	background: #fff;
+	position: relative;
+}
+.form_content{
+	width: 370px;
+	height: 14px;
+	padding: 18px 0px 16px 0px;
+}
+.form_tite{
+	float: left;
+	width: 91px;
+	height: 12px;
+	line-height: 14px;
+	margin-right: 10px;
+	text-align: right;
+}
+.form_term{
+	height: 14px;
+	float: left;
+	margin-right: 28px;
+}
+.select_box{
+	width: 12px;
+	height: 12px;
+	background:#edeeee;
+	vertical-align: top;
+}
+.one_way{
+	line-height: 14px;
+	vertical-align: 3px;
+	margin-left: -3px;
+}
+.form_content2{
+	padding: 0px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 8px;
+}
+.find_box{
+	width: 230px;
+	height: 30px;
+}
+.form_tite2{
+	height: 30px;
+	line-height: 30px;
+}
+.select_box2{
+	width: 228px;
+	height: 27px;
+	line-height: 28px;
+	border: 1px solid #bbbbbb;
+}
+.select_box3{
+	color: #666666;
+}
+.cf{
+	color: #cccccc;
+}
+.select_box4{
+	border-color: #dddddd;
+}
+.more{
+	display: block;
+	width: 62px;
+	height: 14px;
+	line-height: 14px;
+}
+.advanced{
+	float: left;
+	color: #0066cc;
+}
+.advanced2{
+	display: block;
+	width: 10px;
+	height: 5px;
+	background: url(../img/img.png) no-repeat 0px -31px;
+	float: right;
+	margin-top: 5px;
+}
+.hunt{
+	width: 118px;
+	height: 31px;
+	border: 1px solid #e77c00;
+	border-radius: 2px;
+	background: #ffb000;
+	color: #ffffe6;
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(11, 7, 3, 0.2);
+	box-shadow: 0px 1px 0px 1px rgba(11, 7, 3, 0.6);
+	position: absolute;
+	left: 100px;
+	bottom: 10px;
+}
+/* 公务员特价 */
+.servant{
+	width: 380px;
+	height: 75px;
+	margin-bottom: 5px;
+}
+/* 地图找特价 */
+.atlas_box{
+	width: 378px;
+	height: 67px;
+	border: 1px solid #cacaca;
+	border-top: 1px solid #1476ff;
+	margin-bottom: 3px;
+}
+.atlas_content{
+	width: 378px;
+	height: 59px;
+	padding-top: 5px;
+	border-top: 2px solid #1476ff;
+}
+.left_ad{
+	width: 239px;
+	height: 59px;
+	float: left;
+}
+.map_box{
+	display: block;
+	width: 77px;
+	height: 58px;
+	text-align: right;
+	float: left;
+	margin-right: 10px;
+}
+.map_text{
+	display: block;
+	width: 152px;
+	float: left;
+}
+.look_map{
+	display: block;
+	line-height: 31px;
+	font-size: 16px;
+	color: #5b657e;
+}
+.map_introduce{
+	display: block;
+	line-height: 16px;
+	color: #888888;
+}
+.right_ad{
+	width: 32px;
+	height: 28px;
+	margin: 12px 20px 0px 0px;
+	float: right;
+}
+/* 机票工具箱 */
+.toolbar_box{
+	width: 380px;
+	height: 236px;
+	margin-bottom: 12px;
+}
+.tool{
+	font-size: 16px;
+	line-height: 44px;
+	color: #333333;
+}
+.tool_frame{
+	width: 380px;
+}
+.tool_frame2{
+	margin-bottom: 3px;
+}
+.tool_kind{
+	display:block;
+	width: 92px;
+	height: 93px;
+	background: #e0f0ff;
+	margin-right: 3px;
+	text-align: center;
+	float: left;
+}
+.clock_img{
+	margin-top: 15px;
+}
+.price{
+	display: block;
+	line-height: 30px;
+	font-size: 14px;
+	color: #3e89d6;
+	font-weight: bold;
+}
+.kind2{
+	float:left;
+	margin: 0;
+}
+.tool_frame3{
+	width: 371px;
+	height: 96px;
+	padding-left: 9px;
+	background: #e0f0ff;
+}
+.head_title1{
+	line-height: 37px;
+	color: #418ad5;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.genre{
+	height: 14px;
+	margin-bottom: 8px;
+}
+.dot{
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+.require{
+	line-height: 14px;
+	color: #333333;
+	float: left;
+}
+.classify2{
+	float:left;
+}
+.f1{
+	margin-left: 23px;
+}
+.demand_frame{
+	width: 290px;
+	height: 24px;
+	border: 1px solid #89b5e2;
+	border-top: 1px solid #2a61a8;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	float: left;
+	margin-top: 1px;
+	outline: none;
+}
+.click{
+	display: block;
+	width: 54px;
+	height: 26px;
+	border: 1px solid #3882eb;
+	background: #4295e7;
+	color: #fff;
+	text-align: center;
+	float: left;
+	margin-left: 9px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	line-height: 26px;
+}
+/* 携程总评 */
+.comment{
+	width: 380px;
+	height: 191px;
+	margin-bottom: 12px;
+}
+.ask{
+	line-height: 44px;
+	color: #333333;
+}
+.synthesize{
+	width: 367px;
+	height: 125px;
+	padding: 17px 0px 0px 11px;
+	border: 1px solid #bfe1ff;
+	border-radius: 3px;
+	background: #f4fcff;
+}
+.serve{
+	margin: 0px;
+}
+.serve2{
+	font-size: 22px;
+	color: #ff6700;
+}
+.serve3{
+	font-size: 16px;
+	color: #2477e2;
+}
+/* 公告 */
+.notice1{
+	width: 380px;
+}
+.notice_title{
+	font-size: 16px;
+	color: #333333;
+	line-height: 48px;
+}
+.notice_content{
+	width: 380px;
+}
+.notice_text{
+	line-height: 22px;
+}
+.notice_text a{
+	color: #999999;
+}
+.notice_text .more1{
+	padding-left: 12px;
+	color: #0053aa;
+}
+.more1_img{
+	vertical-align: -1px;
+}
+/* 右边区域内容 */
+.content_right{
+	float: right;
+	width: 781px;
+}
+/* 机票广告区 */
+.ad_conent{
+	width: 781px;
+	height: 235px;
+	position: relative;
+	margin-bottom: 12px;
+}
+.switchover_frame{
+	width: 176px;
+	position: absolute;
+	right: 8px;
+	bottom: 9px;
+}
+.switchover{
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: #0ab0e8;
+	border: 2px solid #ffffff;
+	border-radius: 8px;
+	float: left;
+	margin-right: 6px;
+}
+.f2{
+	float: left;
+	margin: 0;
+}
+/* 机票列表 */
+.ticket_box{
+	width: 780px;
+	margin-bottom: 5px;
+}
+.VIP_title{
+	line-height: 36px;
+	color: #333333;
+	font-size: 18px;
+	font-family: 微软雅黑;
+	border-bottom: 1px solid #999999;
+}
+.list_box{
+	width: 777px;
+	padding: 7px 0px 0px 3px;
+	position: relative;
+}
+.list1{
+	width: 182px;
+}
+.list_title{
+	height: 22px;
+	line-height: 22px;
+}
+.list1{
+	margin-left: 53px;
+	float: left;
+}
+.list_frame{
+	display: block;
+	height: 22px;
+	background: url(../img/title_img.png) no-repeat 1px 3px;
+}
+.kind_flight{
+	font-size: 14px;
+	color: #0066cc;
+	font-weight: bold;
+	margin-left: 23px;
+}
+.kind_box{
+	position: relative;
+	display: block;
+	height: 23px;
+	line-height: 23px;
+}
+.date1{
+	font-size: 8px;
+	color: #999999;
+}
+.journey{
+	color: #0066cc;
+}
+.price1{
+	position: absolute;
+	right: 1px;
+	font-size: 9px;
+	color: #bb0000;
+}
+.left_1{
+	position: absolute;
+	width: 17px;
+	height: 28px;
+	background: url(../img/left_1.png) no-repeat;
+	top: 28px;
+}
+.south{
+	background: url(../img/south.png) no-repeat 1px 3px;
+}
+.east{
+	background: url(../img/east.png) no-repeat 1px 3px;
+}
+.right_1{
+	right: 2px;
+	background: url(../img/right_1.png) no-repeat;
+}
+/* 更多机票列表 */
+.more_box{
+	width: 780px;
+	margin-bottom: 20px;
+}
+.more_title{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 2px solid #3983e5;
+	margin-bottom: 10px;
+}
+.guess{
+	display: block;
+	height: 40px;
+	font-size: 16px;
+	color: #333333;
+	margin-left: 10px;
+	position: relative;
+	float: left;
+}
+.top{
+	position: absolute;
+	width: 13px;
+	height: 8px;
+	bottom: -2px;
+	left: 25px;
+	background: url(../img/top.png) no-repeat;
+	display: none;
+}
+.low_price{
+	margin-left: 24px;
+}
+.more_content{
+	width: 772px;
+	height: 416px;
+	padding: 8px 0px 0px 8px;
+	background: #f1f1f1;
+}
+.more_content2{
+	margin-bottom: 6px;
+}
+.place_box{
+	width: 190px;
+	float: left;
+	margin-right: 1px;
+}
+.place_logo{
+	display: block;
+	position: relative;
+	margin-right: 1px;
+}
+.place_bg{
+	position: absolute;
+	top: 0;
+	left: 10px;
+	width: 38px;
+	height: 25px;
+	background: #000;
+	opacity:0.3 ;	
+}
+.beijing{
+	position: absolute;
+	top: 0;
+	left: 15px;
+	line-height: 25px;
+	color: #fff;
+}
+.underscore{
+	width: 190px;
+	height: 6px;
+	background: url(../img/underscore.png) no-repeat;
+}
+.type_box{
+	width: 183px;
+	height: 81px;
+	padding: 8px 0px 0px 7px;
+	background: #fff;
+	position: relative;
+	box-shadow: 0px 1px 0px rgba(16, 15, 15, 0.2);
+}
+.direction{
+	width: 92px;
+	display: block;
+	height: 24px;
+	transition: 0.5s background;
+	border-radius: 3px;
+	margin-bottom: 2px;
+}
+.direction2{
+	line-height: 24px;
+	color: #333333;
+	float: left;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.depart{
+	display: block;
+	width: 15px;
+	height: 24px;
+	background: url(../img/depart.png) no-repeat 0px 8px;
+}
+.l2{
+	margin: 0;
+}
+.date2{
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #999999;
+}
+.price2{
+	height: 19px;
+	position: absolute;
+	right: 0;
+	bottom: 18px;
+
+}
+.discount{
+	padding: 0px 3px;
+	height: 17px;
+	line-height: 17px;
+	border: 1px solid #c5cfd3;
+	background: #f0f3f4;
+	font-size: 10px;
+	color: #9ea8ae;
+	float: left;
+	margin-right: 14px;
+}
+.price3{
+	float: left;
+	height: 17px;
+	margin-right: 14px;
+	color: #bb0000;
+}
+.symbol{
+	display:block;
+	margin:4px 4px 0px 0px;
+	float: left;
+}
+.figure{
+	display:block;
+	line-height: 19px;
+	font-size: 16px;
+	float: left;
+}
+.listbox{
+	margin-bottom: 6px;
+}
+.type_box2{
+	float: left;
+	margin:0px 1px 6px 0px;
+	position: relative;
+}
+.dw{
+	padding-top: 31px;
+}
+.hint_frame{
+	height: 18px;
+}
+.hint_bg{
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	top: 8px;
+	background: #ff7d2d;
+	line-height: 18px;
+	padding: 0px 5px;
+	color: #fff;
+}
+.tiaoshi1{
+	margin-top: 21px;
+}
+/* 特价综合 */
+.compare_box{
+	position: relative;
+}
+.right_bg{
+	width: 42px;
+	height: 102px;
+	background: rgba(248, 244, 242, 0.2);
+	border-radius: 52px 0px 0px 52px;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	top: 81px;
+}
+.bg_left{
+	position: absolute;
+	top: 39px;
+	left: 8px;
+}
+.left_bg{
+	width: 42px;
+	height: 102px;
+	background: rgba(248, 244, 242, 0.2);
+	border-radius: 0px 52px 52px 0px;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 81px;
+}
+.bg_right{
+	position: absolute;
+	top: 39px;
+	right: 8px;
+}
+.synthesize_box{
+	width: 799px;
+}
+.gather_frame{
+	width: 194px;
+	float: left;
+	margin-right: 1px;
+}
+.gather{
+	display: block;
+	width: 194px;
+	height: 266px;
+	position: relative;
+}
+.right-1{
+	position: absolute;
+	left: 58px;
+	bottom: 46px;
+	width: 25px;
+	height: 20px;
+	background: url(../img/right-1.png) no-repeat;
+}
+.imitation{
+	position: absolute;
+	line-height: 20px;
+	color: #fff;
+	bottom: 48px;
+	right: 17px;
+	font-size: 18px;
+}
+.text2{
+	bottom: 18px;
+}
+/* 内容综合 */
+.synthesize_box1{
+	width: 1178px;
+	border: 1px solid #dedede;
+	padding-bottom: 16px;
+}
+.text_title{
+	line-height: 33px;
+	color: #999;
+	padding-left: 10px;
+}
+.title_text{
+	line-height: 18px;
+	margin-bottom: 4px;
+}
+.hot1{
+	padding: 0px 10px;
+	float: left;
+	color: #999999;
+	font-weight: bold;
+}
+.hot1_content{
+	width: 1092px;
+	float: left;
+	word-spacing: 6px;
+}
+.hot_text{
+	line-height: 18px;
+	color: #999;
+}
+.zuo_tiao{
+	margin-left: 60px;
+}
+.zuo_tiao2{
+	margin-left: 42px;
+}
+.synthesize_box1{
+	margin-bottom: 43px;
+}

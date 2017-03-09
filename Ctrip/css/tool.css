@@ -1,0 +1,114 @@
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.laixing:hover, .shouye{
+	background: #0a56bb;
+	border-top: 3px solid #ff9915;
+}
+.leixin_name:hover{
+	color: #3983e5;
+}
+.xiangmulkuang:hover{
+	background: #fff;
+	border-left: 4px solid #ff9915;
+	color: #2577e3;
+}
+.yingcang{
+	display: none;
+}
+.jiudianfenlei:hover, .ziti{
+	color: #0066cc;
+}
+.dian:hover{
+	background: #f6f600;
+}
+.quyu:hover, .temai{
+	color: #0066cc;
+}
+.zuo_img:hover{
+	font-size: 12px;
+	color: #fff;
+	background: #3983e5;
+	line-height: 39px;
+}
+.lvyou_bg:hover, .jinxuan{
+	background: #3983e5;
+	color: #fff;
+}
+.tehui:hover{
+	border: 1px solid #3983e5;
+}
+.fuwu_fenlei .bibankuang, {
+	border-left:none;
+}
+.hezuo_text .demaxiya{
+	border-left:none;
+}
+.fenlei_yanse:hover{
+	color: #2577e5;
+}
+.suoying:hover{
+	color: #2577e5;
+}
+.fenlei_color:hover{
+	color: #3983e5;
+}
+.jinqu_name:hover{
+	color: #3983e5;
+}
+.fuwu_frame:hover{
+	background: #e2eeff;
+}
+.ticket:hover{
+	background: #fff;
+}
+.kind:hover, .kind_inland{
+	color: #0066cc
+}
+.switchover:hover, .ye{
+	background: #f8cd47;
+}
+.guess:hover, .g1{
+	color: #0066cc;
+	display: block;
+}
+.guess:hover span{
+	display: block;
+}
+.direction:hover{
+	background: #35d229;
+}
+.hot_text:hover{
+	color: #2477e2;
+}
+.notice_text a:hover{
+	color: #2477e2;
+}
+.separate:hover{
+	color: #2477e2;
+}
+.play_text:hover{
+	background: #aaaaa9;
+	border-radius: 5px;
+}
+.brand:hover{
+	border: 5px solid #FFA800;
+}
+.district_name:hover{
+	background: #0066cc;
+	color: #fff;
+}
+.coordinate:hover{
+	background: #F2F2F2
+}
+.discount_name:hover{
+	background: #2577e3;
+}
+.discount_name:hover .fx{
+	display: block;
+}
+.menu_name:hover{
+	background: #2577e3;
+}

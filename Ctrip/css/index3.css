@@ -1,0 +1,779 @@
+头部 */
+.index3_box{
+	height: 137px;
+}
+.main_box2{
+	margin-bottom: 4px;
+}
+/* 表单 */
+.listing{
+	border-radius: 5px;
+	padding-bottom: 33px;
+	margin-bottom: 20px;
+}
+.listing_1{
+	border-radius: 5px;
+	padding-bottom: 34px;
+}
+.tavern1{
+	font-size: 20px;
+	font-weight: bold;
+	background: url(../img/tavern.png) no-repeat 4px 13px;
+
+}
+.tavern_listing{
+	height: 14px;
+	line-height: 14px;
+	padding: 13px 0px 13px 35px;
+	background: #f5f5f5;
+	margin-bottom: 11px;
+	border-radius: 5px 5px 0 0;
+}
+.form3{
+	margin-right: 43px;
+}
+.term{
+	width: 230px;
+	height: 21px;
+	border: 1px solid #bbbbbb;
+}
+.seek_frame{
+	margin-top: 17px;
+}
+.hunt2{
+	width: 230px;
+	height: 31px;
+	border: 1px solid #e77c00;
+	background: #ffb000;
+	border-radius: 2px;
+	color: #ffffe6;
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(11, 7, 3, 0.2);
+}
+/* 游玩推荐 */
+.play_box{
+	width: 379px;
+	height: 212px;
+	background: url(../img/play_logo.png) no-repeat;
+	position: relative;
+	border-bottom: 1px solid #767676;
+	border-radius: 0 0 5px 5px;
+	margin-bottom: 20px;
+}
+.play_bg{
+	width: 100%;
+	height: 90px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-radius: 0 0 5px 5px;
+}
+.play_bg2{
+	width: 346px;
+	position: absolute;
+	bottom: 9px;
+	left: 19px;
+}
+.play_content{
+	width: 80px;
+	float: left;
+	margin: 0 8px 5px 0;
+	background: rgba(252, 252, 249, 0.5);
+	border-radius: 5px;
+	line-height: 32px;
+	text-align: center;
+}
+.play_text{
+	display: block;
+	width: 80px;
+	height: 32px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	transition: 0.5s background;
+}
+.clear{
+	margin: 0;
+}
+/* 酒店+活动 */
+.activity_box{
+	width: 342px;
+	padding: 12px 17px 14px 17px;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	background: #f2f2f2;
+	margin-bottom: 20px;
+}
+.activity_title{
+	background: url(../img/title.png) no-repeat;
+	height: 0px;
+	padding-top: 35px;
+	overflow: hidden;
+	color: #333333;
+	border-bottom: 1px solid #d4d4d4;
+}
+.activity_frame{
+	height: 93px;
+	margin-top: 10px;
+	margin-bottom: 11px;
+}
+.music_img{
+	display: block;
+	width: 137px;
+	height: 93px;
+	border-radius: 5px;
+	background: url(../img/music_img.png) no-repeat;
+	float: left;
+	margin-right: 14px;
+}
+.music_text{
+	width: 190px;
+	float: left;
+}
+.text-1{
+	font-size: 18px;
+	line-height: 29px;
+	font-weight: bold;
+	font-family: microsoft yahei, simsun, sans-serif;
+}
+.text-2{
+	line-height: 22px;
+	color: #666666;
+	margin-bottom: 12px;
+}
+.text-3{
+	color: #b2b2b2;
+	line-height: 22px;
+}
+.click1{
+	display: block;
+	width: 340px;
+	line-height: 41px;
+	border: 1px solid #88b6e3;
+	border-radius: 3px;
+	background: #fff;
+	text-align: center;
+	font-size: 18px;
+	color: #0066cc;
+	font-weight: bold;
+}
+.click2{
+	display: block;
+	width: 135px;
+	line-height: 41px;
+	background: url(../img/right.png) no-repeat right 12px;
+	padding-right: 18px;
+	margin: 0 auto;
+}
+/* 二维码 */
+.brand{
+	display: block;
+	width: 370px;
+	height: 167px;
+	border: 5px solid #ffd33a;
+	margin-bottom: 25px;
+}
+/* 促销 */
+.sales_box{
+	width: 379px;
+}
+.sales_text{
+	height: 37px;
+	font-size: 22px;
+	line-height: 37px;
+	color: #333333;
+	font-family: 微软雅黑;
+	position: relative;
+}
+.sales_img{
+	position: absolute;
+	left: 92px;
+	top: -6px;
+}
+.return_frame{
+	width: 380px;
+	margin-bottom: 14px;
+}
+.sales_img1{
+	border: 1px solid #dedede;
+	display: block;
+	border-radius: 5px;
+}
+.expert{
+	color: #333333;
+	font-weight: bold;
+	line-height: 28px;
+	margin: 18px 0 11px 0;
+	position: relative;
+}
+.expert1{
+	line-height: 28px;
+	float: left;
+}
+.expert2{
+	width: 292px;
+	height: 28px;
+	border: 1px solid #cccccc;
+	margin-left: 10px;
+	line-height: 28px;
+	color: #999999;
+	float: left;
+}
+.present1{
+	position: absolute;
+	right: 3px;
+	top: 1px;
+	width: 54px;
+	border-left: 1px solid #cccccc;
+	background: #f2f2f2;
+	line-height: 28px;
+	color: #333333;
+	text-align: center;
+}
+.special{
+	margin-bottom: 20px;
+}
+/* 右边内容 */
+.ad_conent{
+	margin-bottom: 17px;
+}
+.title_text1{
+	position: absolute;
+	right: 14px;
+	top: 14px;
+	color: #000303;
+	font: bold 18px/21px "微软雅黑";
+}
+/* 地区 */
+.district_box{
+	width: 780px;
+	margin-bottom: 20px;
+}
+.title_head{
+	border-bottom: 2px solid #5599dd;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+/* 左边 */
+.district_head{
+	float: left;
+}
+.district_title{
+	font:bold 20px/32px "微软雅黑";
+	margin-right:9px;
+	float: left;
+}
+.district_content{
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.district_name{
+	display: inline-block;
+	line-height: 24px;
+	margin-top: 7px;
+	padding: 0 9px;
+	color: #333333;
+	float: left;
+}
+#label{
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	border-width: 4px;
+	border-style: solid;
+	border-color: transparent transparent #5599dd transparent;
+}
+.more_d{
+	display: inline-block;
+	border-width: 4px;
+	border-style: solid;
+	border-color:#5599dd transparent transparent transparent;
+}
+/* 更多二级菜单 */
+#menu_1{
+	width: 211px;
+	padding: 11px 15px 0px 19px;
+	border: 1px solid #999999;
+	position: absolute;
+	top: 31px;
+	left:-198px;
+	background: #fff;
+	display: none;
+	z-index: 1;
+}
+#menu_1:target{
+	display: block;
+}
+.lose{
+	position: absolute;
+	top: 11px;
+	right: 15px;
+}
+.menu_frame{
+	height: 22px;
+	margin-right: -10px;
+	overflow: hidden;
+}
+.menu_name{
+	display: inline-block;
+	float: left;
+	padding: 0 10px;
+	margin-right: 10px;
+	line-height: 22px;
+	color: #333333;
+}
+/*右边 */
+.all{
+	float: right;
+	display: inline-block;
+	line-height: 24px;
+	margin-top: 7px;
+}
+.landmark{
+	color: #0066cc;
+}
+/* 坐标内容 */
+.coordinate_content{
+	width: 778px;
+	height: 102px;
+	border: 1px solid #e2e2e2;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.coordinate_box{
+
+}
+.coordinate_frame{
+	width: 91px;
+	float: left;
+}
+.coordinate{
+	display: inline-block;
+	width: 91px;
+	text-align: center;
+	padding-top: 7px;
+}
+.coordinate_text{
+	display: block;
+	color: #666666;
+	line-height:28px;
+	text-align: center;
+}
+.coordinate_box:nth-child(1){
+	margin-left: 68px;
+}
+.theme{
+	position: absolute;
+	top: 0;
+	text-align: center;
+	width: 70px;
+	height: 102px;
+}
+.top_1{
+	position: absolute;
+	top: -1px;
+	width: 57px;
+	height: 3px;
+	left: 10px;
+	background: url(../img/top_1.png) no-repeat;
+}
+.icl{
+	padding-top: 31px 
+}
+.icl_text{
+	display: block;
+	line-height: 32px;
+	color: #0066cc;
+}
+.fenge_1{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 4px;
+	height: 102px;
+	background: url(../img/fenge.png) no-repeat;
+}
+.direction_a{
+	position: absolute;
+	top: 46px;
+	right: -12px;
+	border-width: 6px;
+	border-style: solid;
+	border-color: transparent transparent transparent #e6e6e6;
+}
+.d2{
+	right: 0;
+	border-left: 1px solid #e2e2e2;
+}
+.b2{
+	display: none;
+}
+/* 酒店打折推荐 */
+.discount_ad{
+	width: 780px;
+	height: 180px;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 30px;
+}
+.img_box{
+	display: block;
+	width: 780px;
+	height: 180px;
+}
+.discount_frame{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 130px;
+}
+.discount_name{
+	position:relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 130px;
+	line-height: 35px;
+	text-align: center;
+	border-bottom: 1px solid #dedede;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.3);
+}
+.fx{
+	position: absolute;
+	top: 11px;
+	left: -14px;
+	border-width: 7px;
+	border-style: solid;
+	border-color: transparent  #2577e3 transparent transparent;
+	display: none;
+}
+.remove{
+	border: none;
+}
+/* 酒店位置 */
+.font_1{
+	font-size: 28px;
+	color: #5599dd;
+	font-weight: normal;
+	line-height: 40px;
+}
+.title_2{
+	line-height: 24px;
+	margin-top: 8px;
+}
+/* 酒店 二级菜单 */
+.jd_head{
+	margin-bottom: 10px;
+}
+#menu_2{
+	width: 211px;
+	padding: 11px 15px 0px 19px;
+	border: 1px solid #999999;
+	position: absolute;
+	top: 31px;
+	left:-198px;
+	background: #fff;
+	display: none;
+	z-index: 1;
+}
+#menu_2:target{
+	display: block;
+}
+.bg_1{
+	position: absolute;
+	top: 0;
+	right: 11px;
+}
+/* 酒店信息 */
+.grogshop-box{
+	width: 778px;
+}
+.grogshop_message{
+	height: 155px;
+	padding-top: 10px;
+	border-bottom: 1px dotted #dddddd;
+}
+.grogshop_content{
+	width: 130px;
+	height: 130px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 10px;
+}
+.particular{
+	width: 446px;
+	float: left;
+}
+.particular_kg{
+	width: 100%;
+	line-height: 22px;
+	margin-bottom: 8px;
+}
+.img_title{
+	float: left;
+	margin-right: 8px;
+}
+.text_name{
+	display: inline-block;
+	float: left;
+	color: #0066cc;
+	font-size: 14px;
+	font-weight: bold;
+}
+.ranking_frame{
+	width: 60px;
+	height: 15px;
+	background: url(../img/ranking.png) no-repeat;
+	float: left;
+	margin-left: 14px;
+	margin-top: 6px;
+}
+.nearby_box{
+	height: 22px; 
+}
+.nearby_name{
+	line-height: 22px;
+	color: #333333;
+	text-decoration: underline;
+	float: left;
+	margin-right: 14px;
+}
+.discuss{
+	line-height: 22px;
+	color: #333333;
+}
+.fenge_2{
+	display: inline-block;
+	width: 2px;
+	height: 12px;
+	background: #cccccc;
+	vertical-align: -2px;
+}
+.mg{
+	margin-bottom: 7px;
+}
+.discuss_content{
+	line-height: 20px;
+	color: #999999;
+	text-indent: 4px;
+}
+.price_box{
+	width: 182px;
+	float: right;
+	text-align: right;
+}
+.price_2{
+	display: block;
+	height: 22px;
+	color: #ff6600;
+	margin-top: 10px;
+	margin-bottom: 36px;
+}
+.price_2 span{
+	color: #333333;
+	vertical-align: top;
+	margin-right: -1px;
+}
+.price_2 em{
+	font-size: 18px;
+	font-weight: bold;
+}
+.newest{
+	line-height: 14px;
+	color: #10a200;
+}
+.pm2{
+	background: url(../img/ranking.png) no-repeat -11px;
+}
+.pm3{
+	background: url(../img/xing.png) no-repeat;
+}
+.grogshop-box li:nth-child(8){
+	border: none;
+}
+/* 更优惠的酒店 */
+.gd_2{
+	font: 22px/38px "微软雅黑";
+	color: #333333;
+}
+.qc{
+	border: none;
+}
+.jd_dc{
+	margin-bottom: 0;
+}
+.logo_box1{
+	width: 780px;
+	height: 93px;
+	border:1px solid #e2e2e2;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+/* 翻页条 */
+.paging_left{
+	position: absolute;
+	top: 1px;
+	left: 0;
+	width: 24px;
+	height: 92px;
+	border-right: 1px solid #e2e2e2;
+	background: #f5f5f5;
+}
+.paging_left span:nth-child(1){
+	position: absolute;
+	top: 38px;
+	left: 0;
+	border-width: 9px;
+	border-style: solid;
+	border-color: transparent #cdcdcd transparent transparent;
+}
+.paging_right{
+	position: absolute;
+	top: 1px;
+	right: 0;
+	width: 24px;
+	height: 92px;
+	border-left: 1px solid #e2e2e2;
+	background: #f5f5f5;
+}
+.paging_right span:nth-child(1){
+	position: absolute;
+	top: 38px;
+	right: 0;
+	border-width: 9px;
+	border-style: solid;
+	border-color: transparent transparent transparent #cdcdcd;
+}
+.logo_frame{
+	width: 780px;
+	height: 83px;
+	padding: 5px 0px;
+	border-top: 1px solid #e2e2e2;
+}
+.logo_nr{
+	width: 100px;
+	height: 83px;
+	float: left;
+	margin-right: 4px;
+}
+.logo_text{
+	display: inline-block;
+	text-align: center;
+}	
+.logo_text1{
+	line-height: 30px;
+	margin-top: 3px;
+	color: #666666;
+}
+.logo_frame li:nth-child(1){
+	margin-left: 25px;
+}
+/* 保障 */
+.safeguard_box{
+	width: 1162px;
+	height: 65px;
+	padding: 7px 0px 7px 14px;
+	border: 2px solid #c2cbd4;
+	margin-bottom: 30px;
+}
+.safeguard_box2{
+	width: 778px;
+	margin-right: 15px;
+	border-right: 1px solid #d3dbe2;
+	float: left;
+}
+.safeguard_tite{
+	width: 174px;
+	height: 64px;
+	margin-right: 10px;
+	float: left;
+}
+.safeguard_frema{
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 16px;
+	float: left;
+	margin-right: 10px;
+}
+.details{
+	display: block;
+	line-height: 22px;
+	color: #8f9ba7;
+}
+.safeguard_box3{
+	width: 354px;
+	border: none;
+	margin: 0;
+}
+/* 酒店广告 */
+.ad_box{
+	width: 1180px;
+	height: 90px;
+	margin-bottom: 40px;
+}
+.ad_img{
+	float: left;
+	display: block;
+	width: 580px;
+	height: 90px;
+}
+.ad_img2{
+	float: right;
+}
+/* 综合 */
+.synthesize_box2{
+	padding-left: 14px;
+	padding-right: 14px;
+	width: 1150px;
+}
+.text_2{
+	color: #666666;
+	font-weight: bold;
+	padding: 0;
+}
+.title_text2{
+	color: #999999;
+	margin-bottom: 5px;
+	line-height: 24px;
+}
+.hot1_2{
+	width: 80px;
+	color: #666666;
+	line-height: 32px;
+	float: left;
+	padding: 0;
+	font-weight: bold;
+}
+.hot1_content2{
+	float: left;
+}
+.hot_text1{
+	display: block;
+	width: 84px;
+	padding-right: 5px;
+	line-height: 32px;
+	color: #999999;
+	float: left;
+}
+.title_text3{
+	border-bottom: 1px dotted #cccccc;
+	margin-bottom: 2px;
+}
+.synthesize_box2 dl:nth-last-child(1){
+	border: none;
+}
+.hot_text2{
+	width: 240px;
+	padding-right: 24px;
+	white-space: nowrap;
+}

@@ -1,0 +1,1082 @@
+.zhuti_box{
+	width: 100%;
+}
+.ad_content{
+	height: 340px;
+	background: #ec6e00;
+}
+.ad{
+	width: 1188px;
+	height: 301px;
+	padding:19px 0px 20px 0px;
+}
+/*交互区*/
+.zuo_content{
+	margin-top: 1px;
+	width: 581px;
+	height: 300px;
+	background: #ffffff;
+	float: left;
+}
+/*项目栏*/
+.xiangmulan{
+	width: 90px;
+	height: 300px;
+	float: left;
+	background:#2577e3;
+	margin-right: 20px;
+}
+.xiangmu{
+	height: 42px;
+}
+.xiangmulkuang{
+	display: block;
+	position: relative;
+	width: 62px;
+	height: 42px;
+	padding-left: 13px;
+	padding-right: 12px;	
+	line-height: 41px;
+	font-size: 14px;
+	color: #fff;
+	border-left: 4px solid #2577e3;
+}
+.xiangmulei{
+	display: block;
+	width: 62px;
+	border-bottom: 1px dashed #fff;
+}
+.youhui{
+	display: block;
+	position: absolute;
+	right: 11px;
+	top: -4px;
+	width: 17px;
+	height: 17px;
+	background: url(../img/youhui.png) no-repeat;
+}
+/*提交区*/
+.tijiaoqu{
+	width: 451px;
+	padding-top: 20px;
+	float: left;
+}
+.tijiao_title{
+	line-height: 22px;
+	border-bottom: 2px solid #c4c4c4;
+}
+.jiudianqu{
+	height: 22px;
+}
+.jiudianlei{
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: -2px;
+}
+.jiudianfenlei{
+	color: #66667a;
+}
+.jiudianxuan{
+	width: 6px;
+	height: 3px;
+	background: url(../img/img.png) no-repeat 0px -627px;
+	position: absolute;
+	left: 22px;
+	bottom: -4px;
+}
+.dibinakuang{
+	border-bottom: 2px solid #0066cc;
+}
+/*内容填写区*/
+.tiaojianqu{
+	height: 240px;
+	margin-top: 16px;
+	position: relative;
+}
+.chazhaokuang1{
+	margin-bottom: 12px;
+}
+.biaoti{
+	width: 56px;
+	height: 28px;
+	text-align: right;
+	color: #333333;
+	float: left;
+	margin-right: 10px;
+	line-height: 28px;
+	padding-top: 2px;
+}
+.tiaoxiekuang{
+	float: left;
+}
+.tiaojiankuang{
+	width: 383px;
+	height: 28px;
+	border: 1px solid #dddddd;
+	color: #999999;
+	line-height: 28px;
+}
+.tiaojiankuang2{
+	width: 143px;
+	height: 28px;
+	line-height: 28px;
+	color: #333333;	
+	border: 1px solid #dddddd;
+}
+.dengji{
+	float: left;
+}
+.jiange{
+	margin-bottom: 15px;
+}
+.tuifang{
+	margin-left: 28px;
+}
+.jiudiantao{
+	height: 22px;
+	line-height: 22px;
+	padding-top: 0;
+}
+.jiudianjibie{
+	width: 143px;
+	height: 20px;
+}
+.jiudiankuang{
+	float: left;
+}
+.jiange2{
+	margin-bottom: 17px;
+	width: 452px;
+}
+.anniu{
+	position: absolute;
+	right: 7px;
+	bottom: 21px;
+}
+.sousuo{
+	width: 143px;
+	height: 31px;
+	background:#ffb000 url(../img/suosou.png) no-repeat 51px 8px;
+	border: 1px solid #e77c00;
+}
+/*右内容*/
+.you_content{
+	width: 590px;
+	float: right;
+}
+.gangjiong1{
+	width: 589px;
+	height: 226px;
+}
+.gangjiong{
+	display: block;
+	width: 589px;
+	height: 226px;
+}
+.xiecheng_ad{
+	width: 590px;
+	height: 70px;
+	margin-top: 5px;
+	position: relative;
+}
+.logo1{
+	width: 590px;
+	height: 70px;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.lianjie {
+	width: 590px;
+	height: 70px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.tianji{
+	width: 78px;
+	height: 0px;
+	padding-top: 56px;
+	overflow: hidden;
+	position: absolute;
+	top: 6px;
+	left: 42px;
+}
+.xc{
+	position: absolute;
+	padding-top: 56px;
+	overflow: hidden;
+	width: 106px;
+	height: 0px;
+	top: 6px;
+	left: 224px;
+}
+.xianggang1{
+	position: absolute;
+	padding-top: 56px;
+	overflow: hidden;
+	width: 123px;
+	height: 0px;
+	top: 6px;
+	right: 28px;
+}
+.xuandian{
+	position: absolute;
+	left: 207px;
+	bottom: 2px;
+}
+.dian{
+	display: block;
+	float: left;
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	background: #cccccc;
+	margin-right: 12px;
+}
+.dianjianju{
+	margin-right: 32px;
+}
+/*主体内容区*/
+.zhuti_content{
+	width: 1180px;
+}
+.lvyou_box{
+	height: 429px;
+	position: relative;
+	margin-top: 29px;
+	padding-bottom: 10px;
+}
+/*旅游头部*/
+.lvyou_zhonglei{
+	height: 36px;
+	border-bottom: 2px solid #3983e5;
+}
+.quyu{
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	position: relative;
+	float: left;
+	margin-right: 31px;
+	color: #333333;
+	font-size: 16px;
+}
+.biaoti_left{
+	float: left;
+	margin-left: 10px;
+}
+.shang_fuhao{
+	display: block;
+	width: 12px;
+	height: 6px;
+	background: url(../img/img.png) no-repeat 0px -578px; 
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+}
+.bj{
+	float: right;
+	font-size: 12px;
+	line-height: 12px;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.chufa{
+	color: #0066cc;
+}
+/*左导航*/
+.zuodaohang{
+	width: 24px;
+	position: absolute;
+	top: 3px;
+	left: -38px;
+	line-height: 39px; 
+}
+.fenleikuang{
+	width: 24px;
+	height: 39px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.zuo_fenlei{
+	display:block;
+	border-bottom: 1px solid #e0e0e0;
+	color: #3882e5;
+}
+.lvyouyanse{
+	color: #3983e5;
+}
+.zuo_img{
+	display:block;
+	width: 24px;
+	height: 39px;
+	background: url(../img/img.png) no-repeat 0px -306px;
+	font-size: 0;
+}
+.jipiao_bg{
+	background: url(../img/img.png) no-repeat 0px -345px;
+}
+.yongche{
+	background: url(../img/img.png) no-repeat 0px -383px;
+}
+.wanle{
+	background: url(../img/img.png) no-repeat 0px -423px;
+}
+.gouwu{
+	background: url(../img/img.png) no-repeat 0px -461px;
+}
+.gonglue{
+	background: url(../img/img.png) no-repeat 0px -501px;
+}
+.fuwu1{
+	background: url(../img/img.png) no-repeat 0px -538px;
+}
+.quchukuang{
+	border: none;
+}
+/*旅游内容部分*/
+.kuan_content{
+	width: 1140px;
+	padding: 15px 19px 0px 19px;
+	border: 1px solid #e0e0e0;
+	border-top:none;
+	background: #fff;
+}
+/*旅游模式分类*/
+.lvtou_toubu{
+	width: 1140px;
+}
+.lvyou_moshi{
+	height: 20px;
+	line-height: 20px;
+	float: left;
+}
+.lvyou_xiang{
+	margin-right: 16px;
+	float: left;
+}
+.jinxuan{
+	float: left;
+	display: block;
+	padding: 0px 9px 0px 8px;
+	height: 20px;
+	color: #fff;
+}
+.lvyou_xiangmu{
+	float: left;
+	height: 20px;
+}
+.lvyou_xuanxiang{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0px 9px 0px 8px;
+	color: #3983e5;
+	float: left;
+	margin-right: 16px;
+}
+.gengduodehui{
+	float: right;
+	margin-right: -10px;
+}
+.tehui{
+	display: inline-block;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+	padding: 1px 11px;
+	vertical-align: middle;
+	line-height: 12px;
+}
+.tehui_text{
+	float: left;
+	display: block;
+	color: #3983e5;
+	padding-top: 3px;
+}
+.tehui_jianju{
+	margin-right: 4px;
+}
+.fuhao_tiaoshi{
+	display: block;
+	width: 6px;
+	height: 8px;
+	background: url(../img/img.png) no-repeat 0px -630px;
+	margin-top: 4px;
+	float: left;
+}
+/*旅游广告图片*/
+.lvyou_img{
+	margin-top: 10px;
+	margin-bottom: -7px;
+}
+.tupian_kuandu{
+	width: 220px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.lvyouad_img{
+	display: block;
+	width: 220px;
+	position: relative;
+}
+.lvyou_bg1{
+	position: absolute;
+	width: 37px;
+	height: 16px;
+	top: 0px;
+	left: 10px;
+	background: #ff6600;
+	opacity: 0.9;
+	text-align: center;
+	line-height: 16px;
+	color: #fff;
+}
+.xia_bg{
+	position: absolute;
+	width: 100%;
+	height: 25px;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.5;
+}
+.youhui_bg{
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+	width: 18px;
+	height: 16px;
+	background: #ff6600;
+	opacity: 0.9;
+	line-height: 16px;
+	text-align: center;
+	color: #fff;
+}
+.text{
+	position: absolute;
+	left: 28px;
+	bottom: 6px;
+	color: #fff;
+}
+.jiesao{
+	line-height: 22px;
+	color: #666666;
+}
+.jiagekuang{
+	width: 220px;
+	margin-top: 7px;
+	text-align: right;
+}
+.jiage_weizhi{
+	float: right;
+}
+.feijia{
+	color: #adadad;
+	text-decoration: line-through;
+	float: left;
+	margin:5px 5px 0px 0px ;
+}
+.qianfuhao{
+	color: #666666;
+	vertical-align: top;
+	float: left;
+	margin-right: 1px;
+}
+.biaojia{
+	font-size: 16px;
+	color: #ff6600;
+	font-weight: bold;
+	float: left;
+	margin-right: 4px;
+}
+.qi{
+	color: #666666;
+	float: left;
+	margin-top: 4px;
+}
+.tieta{
+	width: 220px;
+	float: right;
+}
+.aifeiertieta{
+	position: relative;
+	display: block;
+}
+.tieta_bg{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background: #000;
+	opacity: 0.5;
+}
+.tieta_text{
+	position: absolute;
+	line-height: 30px;
+	bottom: 0;
+	left: 32px;
+	color: #fff;
+}
+/*酒店box*/
+.jiudian_box{
+	margin-top: 29px;
+}
+.jiudian_adqu{
+	padding-top: 0;
+}
+/*酒店左部内容*/
+.jiudian_adleft{
+	width: 210px;
+	border-right: 1px dotted #a3a3a3;
+	padding: 6px 0px 19px 0px;
+	float: left;
+}
+.cuxiaobang{
+	line-height: 32px;
+}
+.biaoti_1{
+	color: #333333;
+	font-weight: bold;
+}
+.fenlei_color{
+	color: #666666;
+}
+.faxianjiudian{
+	padding-top: 13px;
+}
+/*酒店右部内容*/
+.jiudian_adright{
+	float: left;
+	width: 910px;
+	padding: 15px 0px 0px 19px;
+}
+.jd_toubu{
+	width: 910px;
+}
+.img_height{
+	height: 160px;
+}
+.jiudian_text{
+	position: absolute;
+	top: 47px;
+	left: 64px;
+	width: 92px;
+	height: 66px;
+	text-align: center;
+}
+.xinjiapo{
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	line-height: 18px;
+	margin-top: 1px;
+}
+.jiadianzhi{
+	display: block;
+	line-height: 19px;
+	color:#fff;
+	padding-top: 3px;
+}
+.fenhang{
+	display: block;
+	width: 92px;
+	height: 1px;
+	background: #aeb6be;
+}
+.jiudian_jiage{
+	display: block;
+	height: 31px;
+	padding-left: 22px;
+	margin-top: 8px;
+}
+.jiagefu{
+	color: #fff;
+	vertical-align: top;
+	float: left;
+	margin-left: 5px;
+}
+.jiawei{
+	color: #ff6600;
+	font-size: 16px;
+	float: left;
+}
+.qibu{
+	float: left;
+	color: #fff;
+	margin: 3px 0px 0px 4px;
+}
+.jiudian_dibu{
+	margin-bottom: 10px;
+}
+/*机票box*/
+.jipiao_box{
+	margin-top: 29px;
+}
+.jipiao_content{
+	width: 1140px;
+    padding: 15px 19px 0px 19px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    background: #fff;
+    padding-bottom: 5px;
+}
+.jipiao_left{
+	width: 680px;
+	height: 360px;
+	float: left;
+	margin-right: 10px;
+}
+.jipiaodaohang{
+	margin-right: -10px;
+	margin-bottom: 10px;
+}
+.guojia1{
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+.rili_img{
+	width: 680px;
+	height: 300px;
+}
+.rili{
+	display: block;
+	
+	position: relative;
+}
+.youfanye{
+	position: absolute;
+	top: 136px;
+	right: 7px;
+	width: 14px;
+	height: 28px;
+	background: url(../img/youfanye.png) no-repeat;
+}
+/*机票中间部分*/
+.jipiao_center{
+	float: left;
+	width: 220px;
+	margin-right: 10px;
+}
+.jipiao_ad{
+	display: block;
+	width: 220px;
+	position: relative;
+	margin: 0px 10px 10px 0px;
+}
+.jipiao_bg1{
+	position: absolute;
+	width: 100%;
+	height: 33px;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.3;
+
+}
+.jipiao_text{
+	position: absolute;
+	bottom: 9px;
+	left: 5px;
+	line-height: 16px;
+	font-size: 14px;
+	color: #fff;
+}
+.jipiao_jiage{
+	position: absolute;
+	width: 65px;
+	bottom: 6px;
+	right: 5px;
+	color: #ff6600;
+	height: 16px;
+}
+.jiagefu{
+	float: left;
+	vertical-align: top;
+	color: #ff6600;
+}
+.jipiao_zhi{
+	float: left;
+	line-height: 16px;
+	font-size: 16px;
+}
+.jipiap_qi{
+	margin: 2px 0px 0px 10px;
+	float: left;
+}
+.jipiao_right{
+	float: left;
+	width: 220px;
+}
+.fengding{
+	position: relative;
+	display: block;
+	width: 220px;
+}
+.fengding_bg{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	opacity:0.5;
+}
+.zhoumo{
+	position: absolute;
+	line-height: 30px;
+	bottom: 0;
+	left: 45px;
+	color: #ffffff;
+}
+/*汽车box*/
+.qiche_box{
+	margin-top: 29px;
+}
+.zuche_left{
+	padding-bottom: 53px;
+}
+.qiche_gengduo{
+	float: left;
+}
+.qiche_ad{
+	margin-top: 10px;
+}
+.gengduo1{
+	display: block;
+	width: 40px;
+	height: 20px;
+}
+.gengduo2{
+	float: left;
+	color: #3983e5;
+	line-height: 20px;
+}
+.gengduo3{
+	display: block;
+	width: 10px;
+	height: 5px;
+	background: url(../img/img.png) no-repeat 0px -584px;
+	float: left;
+	margin: 9px 0px 0px 5px;
+}
+.qiche2{
+	width: 219px;
+	float: left; 
+	margin-right: 10px;
+}
+.qiche3{
+	font: left;
+}
+.qiche_img{
+	display: block;
+}
+.meiguo{
+	line-height: 38px;
+	color: #666666;
+}
+.qiche_name{
+	height: 17px;
+}
+.zijia{
+	color: #999999;
+	float: left;
+	padding-top: 1px;
+}
+.qiche_jiage{
+	float: right;
+}
+/*风景box*/
+
+/*风景左内容*/
+.remeng{
+	color: #333333;
+	line-height: 32px;
+	margin-bottom: 7px;
+}
+.jingqu_difang{
+	height: 18px;
+	margin-bottom: 14px;
+}
+.jinqu_name{
+	float: left;
+	color: #666666;
+}
+.shuxian{
+	display: block;
+	width: 1px;
+	height: 18px;
+	background: #ececec;
+	float: left;
+	margin: 0px 10px 0px ;
+}
+.maoli{
+	line-height: 18px;
+}
+.difaangyou{
+	width: 915px;
+}
+/*全球购box*/
+.h_text{
+	position: relative;
+}
+.h_text1{
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	background: url(../img/h.png) no-repeat;
+	right: -8px;
+	top: -9px;
+}
+.youhui1{
+	display: block;
+	width: 30px;
+	height: 16px;
+	border: 1px solid #0b9fdf;
+	color: #0b9fdf;
+	text-align: center;
+	line-height: 16px;
+}
+.ys{
+	color: #ff6600;
+	border: 1px solid #ff6600;
+	margin-right: 4px;
+
+}
+.zl{
+	color: #ff0000;
+	border: 1px solid #ff0000;
+}
+.cx{
+	color: #d18f00;
+	border: 1px solid #d18f00;
+}
+/*攻略box*/
+.gonglie{
+	padding-bottom:24px;
+}
+.gonglie_bg{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.3
+}
+.gonglie_text{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+}
+/*服务box*/
+.lvyoufuwu{
+	border: none;
+	width: 1180px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background: #f6f6f6;
+}
+.fuwu_box{
+	width: 384px;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	float: left;
+	margin-right: 10px;
+}
+.fuwu_frame{
+	height: 102px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.fuwu_img{
+	display: block;
+	float: left;
+	width: 110px;
+	height: 102px;
+	text-align: right;
+}
+.fuwu_img1{
+	padding-top: 15px;
+}
+.fuwu_text{
+	height: 102px;
+	float: left;
+	padding-left: 20px;
+	float: left;
+}
+.fuwu_title{
+	padding-top: 10px;
+	line-height: 34px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+	font-family:微软雅黑;
+}
+.fuwu_fanwei{
+	line-height:18px;
+	color: #666666;
+}
+.fuwu_fenlei{
+	height: 24px;
+	padding: 18px 0px;
+	margin-left: -1px;
+}
+.fuwu_fenlei .biankuang{
+	border-left: none;
+}
+.fuwu_kuang{
+	width: 95px;
+	float: left;
+	border-left: 1px dashed #a3a3a3;
+	margin-left: -1px;
+}
+.fuwu_kuan{
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #333333;
+}
+.fudong{
+	float: left;
+	margin: 0;
+}
+.teshu{
+	width: 128px;
+}
+.hangye_fenlei{
+	width: 1178px;
+	border: 1px solid #e0e0e0;
+	margin-top: 28px;
+	background: #fff;
+}
+/*合作BOX*/
+.hezuo{
+	height: 98px;
+	padding-left:19px;
+	line-height: 16px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.hezuo_jiesao{
+	width: 189px;
+	border-right: 1px solid #e0e0e0;
+	padding-right: 9px;
+	float: left;
+	padding-bottom: 14px;
+}
+.hezuo_tou{
+	width: 187px;
+	line-height: 26px;
+	padding-top: 10px;
+	margin-bottom: 6px;
+
+}
+.hezuo_youhui{
+	color: #333333;
+	font-family: 微软雅黑;
+	float: left;
+}
+.hezuo_gengduo{
+	color: #b6b6b6;
+	float: right;
+}
+.hezuo_text{
+	line-height: 21px;
+	margin-left: -1px;
+}
+.mingzhu{
+	color: #666666;
+	display: block;
+}
+.hezuohuoban{
+	padding-left: 19px;
+	float: left;
+}
+.huoban_fudong{
+	display: block;
+	width: 154px;
+	height: 35px;
+	border-left: 1px dashed #e0e0e0;
+	float: left;
+	text-align: center;
+	vertical-align: top;
+	margin-left: -1px;
+}
+.hangye_logo{
+	display: inline-block;
+	width: 76px;
+	height: 0px;
+	background: url(../img/hangye_logo.png) no-repeat 0px -145px;
+	padding-top: 28px;
+	overflow: hidden;
+}
+.tieyou{
+	background: url(../img/hangye_logo.png) no-repeat 0px -116px;
+}
+.tufeng{
+	background: url(../img/hangye_logo.png) no-repeat 0px -87px;
+}
+.tujia{
+	background: url(../img/hangye_logo.png) no-repeat 0px -58px;
+}
+.yongan{
+	background: url(../img/hangye_logo.png) no-repeat 0px -30px;
+}
+.yiyou{
+	background: url(../img/hangye_logo.png) no-repeat 0px 0px;
+}
+.juji{
+	width: 1150px;
+	padding: 9px 14px 0px 10px;
+}
+.xiechengdao{
+	/*line-height: 49px;*/
+	padding-bottom: 
+}
+.biaoti1{
+	width: 52px;
+	height: 24px;
+	line-height: 24px;
+	color: #666666
+	font-weight:bold;
+	margin-right: 28px;
+	float: left;
+}
+.xiecheng_fenlei1{
+	width: 72px;
+	height: 24px;
+	color: #b6b6b6;
+	float: left;
+	margin-right: 17px;
+	line-height: 24px;
+}
+.fenlei_yanse{
+	color: #b6b6b6;
+}
+.fenlei_hang{
+	padding-bottom:5px;
+	border-bottom: 1px dashed #cccccc;
+}
+.qita_fenlei{
+	height: 34px;
+	
+}
+.qita_height{
+	line-height: 34px;
+}
+.dema{
+	padding-bottom: 0;
+}
+.xiya{
+	border-bottom: none;
+	padding-bottom: 5px;
+}
