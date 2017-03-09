@@ -99,18 +99,18 @@ var  animation={
 					"./animation/img4/LightSpot.png"
 				],
 				img4TopText:[
-					["2014 &nbsp; July"],
-					["2014 &nbsp; August"],
-					["2015 &nbsp; March"],
-					["2015 &nbsp; August"],
-					["2014 &nbsp; November"]
+					["2016 &nbsp; July"],
+					["2016 &nbsp; July"],
+					["2016 &nbsp; August"],
+					["2016 &nbsp; August"],
+					["2016 &nbsp; November"]
 				],
 				img4BottomText:[
-					["易企秀团队创意初成"],
-					["易企秀产品web1.0正式上线"],
-					["光明日报采用易企秀报道两会"],
-					["易企秀正式成立公司"],
-					["获得千万美金级别A轮融资"]
+					["携程的首页兼容IE6的页面"],
+					["uehtml页面响应式编写完毕"],
+					["3D立体空间家具房"],
+					["3D酷炫双模式时钟"],
+					["移动端酷炫VR安踏"]
 				],
 				img5:[
 					"./animation/img5/bg1.png",
@@ -123,7 +123,8 @@ var  animation={
 					["我的作品"],
 					"./animation/img5/bottom.png",
 					["欢迎你来欣赏"],
-					"./animation/img5/LightSpot.png"
+					"./animation/img5/LightSpot.png",
+					["查看更多作品"]
 				],
 				worksS:[
 					"./animation/works/tab.gif",

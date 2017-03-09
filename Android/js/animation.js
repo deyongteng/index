@@ -331,7 +331,11 @@ function animationD(){
 	diWuPingHtml+="<ul class='bgBox5'>";
 		for (var i = 0; i < diWuPing.length; i++) {
 			
-			if(i===9){
+			if(i===11){
+				diWuPingHtml+="<li class='bg5_"+(i+1)+"Box''>";
+				diWuPingHtml+="<a href='https://github.com/deyongteng'>"+diWuPing[i]+"</a>";
+				diWuPingHtml+="</li>";
+			}else if(i===9){
 				diWuPingHtml+="<li class='bg5_"+(i+1)+"Box''>";
 				diWuPingHtml+="<span>"+diWuPing[i]+"</span>";
 				diWuPingHtml+="</li>";
@@ -373,6 +377,7 @@ function animationD(){
 				TweenMax.staggerFrom(".Worke1Box", 2.5, {y:0, scale:1, opacity:0,  rotationX:-180, rotationY:-180,  delay:1.5, ease:Elastic.easeOut});
 				TweenMax.staggerFrom(".bg5_10Box", 1, {y:200, scale:1, opacity:0,  rotationX:0, rotationY:0,  delay:2, ease:Elastic.liner});
 				TweenMax.staggerFrom(".bg5_11Box", 1, {y:500, scale:0.6, opacity:0,  rotationX:0, rotationY:0,  delay:2.5, ease:Elastic.liner});
+				TweenMax.staggerFrom(".bg5_12Box", 1, {y:0, scale:0.6, opacity:0,  rotationX:0, rotationY:0,  delay:2.5, ease:Elastic.liner});
 				
 		}
 
