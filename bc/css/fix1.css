@@ -1,0 +1,16 @@
+.content_bg{
+	background-color: #000000;
+	filter: alpha(opacity=100);
+}
+.navFix_bg{
+	background-color: #000000;
+	filter: alpha(opacity=80);
+}
+.ioc>span{
+	background-color: #FFFFFF;
+	filter: alpha(opacity=80);
+}
+.notice{
+	background-color: #000000;
+	filter: alpha(opacity=50);
+}
