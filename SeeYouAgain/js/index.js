@@ -31,13 +31,15 @@ JQ_ulBox.append(img1Html);
 $(".liBox1").css("background-image","url(img/bg.jpg)");
 
 //第一屏动画
-function imgAn1(){
+
+var imgAn1=function (){
 	TweenMax.staggerFrom(".img", 1, {scale:0.1, opacity:0, delay:0.2, ease:Elastic.liner});
 	TweenMax.staggerFrom(".img1_1imgBox", 1, {scale:1, opacity:0, delay:1, ease:Elastic.liner});
 	TweenMax.staggerFrom(".img2", 1, {width:0.1, opacity:1, delay:0.8, ease:Elastic.liner});
 	TweenMax.staggerFrom(".img1_3imgBox", 2, {scale:1, opacity:0, delay:1.5, ease:Elastic.liner});
 	TweenMax.staggerFrom(".img1_4imgBox", 2, {scale:1, opacity:0, delay:2.5, ease:Elastic.liner});
 }
+imgAn1();
 
 //第二屏
 var img2Conet=data.img2;
@@ -109,7 +111,7 @@ function soansRoat(Elment,url,number){
 		},1000)
 	},3000)
 
-	Elment.each(function(index,el){
+	Elment.each(function(index,el){	
 		$(el).css({
 			"width": spanWidth + "px",
 			"height": "100%",
@@ -119,6 +121,99 @@ function soansRoat(Elment,url,number){
 		})
 	})
 }
+var imgAn2=function (){
+	TweenMax.staggerFrom(".img2_1imgBox", 2, {x:0, scale:0.1, opacity:0, delay:0.5, ease:Elastic.easeInOut});
+}
 var ulBox=document.getElementsByClassName("ulBox")[0]
-var JQ_Slide=$(".Slide");
-TDY_position(JQ_Slide,ulBox,300);
+
+
+	var setValueY="";
+	var getY="";
+	var hdY="";
+	
+	var jQ_animatiBox=$(".ulBox");
+	var jQ_Modular=$(".Slide");
+	console.log(jQ_Modular.length)
+	var getStartY="";
+	var getChaZ="";
+	var getChaZiY="";
+	var onoff=true;
+	var num=0;
+	var Mod_length=jQ_Modular.length-1;
+	jQ_Modular.css("zIndex",0);
+	jQ_Modular.eq(0).css("zIndex",2);
+	jQ_Modular.eq(1).css("zIndex",1);
+
+
+	jQ_animatiBox.on("touchstart",function(ev){
+		height=document.getElementsByClassName("ulBox")[0].offsetHeight;
+		getStartY=ev.changedTouches[0].pageY;
+	});
+	
+	jQ_animatiBox.on("touchmove",function(ev){
+		var getMoveY="";
+		getMoveY=ev.changedTouches[0].pageY;
+		setValueY=getMoveY-getStartY;
+		if(setValueY<0){
+			if(onoff){
+				num++;
+				if(num>Mod_length){
+					num=1;
+					alert("已经是最后一张了");
+					return;
+				}
+				if(num==1){
+					imgAn2();//第二屏函数动画
+				}
+					//第二屏总动画函数；
+				onoff=false;
+			}
+			jQ_Modular.hide();
+			jQ_Modular.eq(num).show();
+			jQ_Modular.eq(num-1).show();
+			jQ_Modular.eq(num-1).css("zIndex",8);
+			jQ_Modular.eq(num).css("zIndex",10);
+			jQ_Modular.eq(num).css("top","100%");
+			jQ_Modular.eq(num).css("top",setValueY+height);
+			
+		}
+		if(setValueY>0){
+			if(onoff){
+				num--;
+				if(num<0){
+					num=0;
+					alert("已经是第一张了");
+					return;
+				}
+				if(num==0){
+					imgAn1();//第五屏函数动画
+				}
+				
+				onoff=false;
+			}
+			jQ_Modular.hide();
+			jQ_Modular.eq(num).show();
+			jQ_Modular.eq(num+1).show();
+			jQ_Modular.eq(num).css("zIndex",10);
+			jQ_Modular.eq(num+1).css("zIndex",8);
+			jQ_Modular.eq(num).css("top",-height);
+			jQ_Modular.eq(num).css("top",setValueY-height);
+		}
+		
+	});
+	jQ_animatiBox.on("touchend",function(){
+		onoff=true;
+		if(setValueY<10){
+			jQ_Modular.eq(num).animate({
+				top:0
+			},500,function(){
+				jQ_Modular.eq(num-1).css("top",-height);
+			});
+		}else{
+			jQ_Modular.eq(num).animate({
+				top:0
+			},500,function(){
+				jQ_Modular.eq(num+1).css("top",height);
+			});
+		}
+	});

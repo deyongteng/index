@@ -26,6 +26,9 @@ img {
   overflow: hidden;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 /*第一屏*/
 .liBox1,

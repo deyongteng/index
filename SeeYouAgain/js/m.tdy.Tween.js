@@ -221,7 +221,7 @@ function MTween(init){
 		20
 	);
 }
-function TDY_position(eles,parenT,time){
+function TDY_position(eles,parenT,time,functi){
 	var setValueY="";
 	var getY="";
 	var hdY="";
@@ -250,6 +250,15 @@ function TDY_position(eles,parenT,time){
 					return;
 				}
 					//第二屏总动画函数；
+				if(num==1){
+					//functi();//第二屏函数动画
+				}else if(num==2){
+					//第三屏函数动画
+				}else if(num==3){
+					//第四屏函数动画
+				}else if(num==4){
+					//第五屏函数动画
+				}
 				onoff=false;
 			}
 			for (var i = 0; i < eles.length; i++) {
@@ -335,6 +344,20 @@ function TDY_position(eles,parenT,time){
 						num=0;
 						return;
 					}
+					if(num==1){
+						functi();//第二屏函数动画
+					}else
+					// if(num==4){
+					// 	diWuPingDh();//第五屏函数动画
+					// }else if(num==3){
+					// 	diSiPingDh();//第四屏函数动画
+					// }else if(num==2){
+					// 	diSanPingDh();//第三屏函数动画
+					// }else if(num==1){
+					// 	diErPingDh();//第二屏函数动画
+					// }else if(num==0){
+					// 	diYiPingDh();//第一屏函数动画
+					// }
 					onoff=false;
 				}
 				for (var i = 0; i < eles.length; i++) {
