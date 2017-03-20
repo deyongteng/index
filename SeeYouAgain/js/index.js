@@ -8,7 +8,7 @@ var spanWidth=Math.floor(setW / 10);
 var img1Conet=data.img1;
 var img1Html="";
 var JQ_ulBox=$(".ulBox");
-img1Html+="<ul class='liBox1'>";
+img1Html+="<ul class='liBox1 Slide'>";
 for (var i = 0; i < img1Conet.length; i++) {
 	if(i===0){
 		img1Html+="<li class='img1_"+i+"imgBox'>";
@@ -41,66 +41,84 @@ function imgAn1(){
 
 //第二屏
 var img2Conet=data.img2;
+var img2Conet2=data.imgS2;
 var img2Html="";
-img2Html+="<ul class='liBox2'>";
+img2Html+="<ul class='liBox2 Slide'>";
 for (var i = 0; i < 3; i++) {
-	img2Html+="<li class='img2_"+i+"imgBox'>";
-	img2Html+="<span></span>";
-	img2Html+="</li>";
-}
+	if(i===1){
+		img2Html+="<li class='img2_" + i + "imgBox'>";
+		img2Html+="<span>" + textS[0] + "</span>";
+		img2Html+="</li>";
+	}else{
+		img2Html+="<li class='img2_" + i + "imgBox'>";
+		img2Html+="<span></span>";
+		img2Html+="</li>";
+	}
+};
 img2Html+="</ul>";
 JQ_ulBox.append(img2Html);
 
+// 生成定位span
 var spans="";
 for (var i = 0; i < 10; i++) {
-	spans+="<span style='left:"+i*spanWidth+"px;' class='spans'></span>";
+	spans+="<span style='left:" + i*spanWidth + "px;' class='spans'></span>";
 }
 $(".img2_0imgBox").find("span").append(spans);
+$(".img2_2imgBox").find("span").append(spans);
 var nub=0;
 var nubS=0;
 var JQ_spans=$(".spans");
-var spans=document.getElementsByClassName("spans");
-var width=$(document).width()
+var JQ_spans0=$(".img2_0imgBox").find("span").find("span");
+var JQ_spans2=$(".img2_2imgBox").find("span").find("span");
 
-setInterval(function(){
-	nub++;
-	if(nub==img2Conet.length){
-		nub=0;
-	}
-	JQ_spans.each(function(index,el){
-		$(el).css({
-			"-webkit-transition":"1s",
-			"transition":"1s",
-			"-webkit-transform": "rotateY(90deg)",
-			"transform": "rotateY(90deg)",
-			"background": "url(" + img2Conet[nub] + ")",
-			"backgroundPositionX": -spanWidth * index + "px",
-			"backgroundSize":setW + "px 100%"
-		})
-	})	
-	setTimeout(function(){
-		JQ_spans.each(function(index,el){
+// 旋转更换url
+soansRoat(JQ_spans0,img2Conet,nub);
+soansRoat(JQ_spans2,img2Conet2,nubS);
+function soansRoat(Elment,url,number){
+	setInterval(function(){
+		number++;
+		if(number==img2Conet.length){
+			number=0;
+		}
+		Elment.each(function(index,el){
 			$(el).css({
-				"-webkit-transition":"",
-				"transition":"",
-				"-webkit-transform": "rotateY(0deg)",
-				"transform": "rotateY(0deg)",
-				"height": "100%",
-				"width": spanWidth + "px",
-				"background": "url(" + img2Conet[nub] + ")",
+				"-webkit-transition":"1s",
+				"transition":"1s",
+				"-webkit-transform": "rotateY(90deg)",
+				"transform": "rotateY(90deg)",
+				"background": "url(" + url[number] + ")",
 				"backgroundPositionX": -spanWidth * index + "px",
 				"backgroundSize":setW + "px 100%"
 			})
-		})
-	},1000)
-},3000)
+		})	
+		// 更换url以及复位
+		setTimeout(function(){
+			Elment.each(function(index,el){
+				$(el).css({
+					"-webkit-transition":"",
+					"transition":"",
+					"-webkit-transform": "rotateY(0deg)",
+					"transform": "rotateY(0deg)",
+					"height": "100%",
+					"width": spanWidth + "px",
+					"background": "url(" + url[number] + ")",
+					"backgroundPositionX": -spanWidth * index + "px",
+					"backgroundSize":setW + "px 100%"
+				})
+			})
+		},1000)
+	},3000)
 
-JQ_spans.each(function(index,el){
-	$(el).css({
-		"width": spanWidth + "px",
-		"height": "100%",
-		"background": "url(" + img2Conet[nub] + ")",
-		"backgroundPositionX": -spanWidth * index + "px",
-		"backgroundSize":setW + "px 100%"
+	Elment.each(function(index,el){
+		$(el).css({
+			"width": spanWidth + "px",
+			"height": "100%",
+			"background": "url(" + url[number] + ")",
+			"backgroundPositionX": -spanWidth * index + "px",
+			"backgroundSize":setW + "px 100%"
+		})
 	})
-})
+}
+var ulBox=document.getElementsByClassName("ulBox")[0]
+var JQ_Slide=$(".Slide");
+TDY_position(JQ_Slide,ulBox,300);

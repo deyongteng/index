@@ -14,6 +14,14 @@ var data={
 		"./img/img2_5.jpg",
 		"./img/img2_6.jpg"
 	],
+	imgS2:[
+		"./img/img2_6.jpg",
+		"./img/img1_1.jpg",
+		"./img/img2_4.jpg",
+		"./img/img2_3.jpg",
+		"./img/img2_2.jpg",
+		"./img/img2_1.jpg"
+	],
 	img3:[
 		"./img/img3_1.jpg",
 		"./img/img3_2.jpg",
@@ -47,4 +55,4 @@ var data={
 		"./img/img7_5.jpg"
 	]
 }
-var textS=["8,20妙味"];
+var textS=["SeeYouAgain"];

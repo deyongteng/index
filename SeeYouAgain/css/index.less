@@ -38,7 +38,7 @@ img{
     position: absolute;
     left: 0;
     top: 0;
-    display: none;
+    // display: none;
 }
 .img1_0imgBox{
     width: 280/@rem;
@@ -83,31 +83,34 @@ img{
 
 //第二屏
 .liBox2{
-    display: block;
+    background-color:#FFF; 
 }
-.img2_0imgBox{
+.img2_0imgBox,
+.img2_2imgBox{
     width: 100%;
     height: 212/@rem;
-    margin-top: 10/@rem;
+    margin-top: 30/@rem;
 }
-.img2_0imgBox>span{
+.img2_1imgBox{
+    width: 100%;
+    text-align: center;
+    line-height: 38/@rem;
+    font-size: 24/@rem;
+    color: #404449;
+    padding: 10/@rem 0/@rem;
+}
+.img2_2imgBox{
+    margin-top: 0/@rem;
+}
+.img2_0imgBox>span,
+.img2_2imgBox>span{
     position: relative;
     display: block;
     width: 100%;
     height: 212/@rem;
 }
-//@keyframes rotateY{
-//  0%{
-//      transform: rotateY(0deg);
-//  }
-//  20%{
-//      transform: rotateY(-90deg);
-//  }
-//  100%{
-//      transform: rotateY(0deg);
-//  }
-//}
-.img2_0imgBox>span>span{
+.img2_0imgBox>span>span,
+.img2_2imgBox>span>span{
     display: block;
     position: absolute;
     left: 0;

@@ -37,7 +37,6 @@ img {
   position: absolute;
   left: 0;
   top: 0;
-  display: none;
 }
 .img1_0imgBox {
   width: 17.5rem;
@@ -80,20 +79,34 @@ img {
   font-family: "微软雅黑";
 }
 .liBox2 {
-  display: block;
+  background-color: #FFF;
 }
-.img2_0imgBox {
+.img2_0imgBox,
+.img2_2imgBox {
   width: 100%;
   height: 13.25rem;
-  margin-top: 0.625rem;
+  margin-top: 1.875rem;
 }
-.img2_0imgBox > span {
+.img2_1imgBox {
+  width: 100%;
+  text-align: center;
+  line-height: 2.375rem;
+  font-size: 1.5rem;
+  color: #404449;
+  padding: 0.625rem 0rem;
+}
+.img2_2imgBox {
+  margin-top: 0rem;
+}
+.img2_0imgBox > span,
+.img2_2imgBox > span {
   position: relative;
   display: block;
   width: 100%;
   height: 13.25rem;
 }
-.img2_0imgBox > span > span {
+.img2_0imgBox > span > span,
+.img2_2imgBox > span > span {
   display: block;
   position: absolute;
   left: 0;
