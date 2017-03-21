@@ -37,7 +37,7 @@ var imgAn1=function (){
 	TweenMax.staggerFrom(".img1_1imgBox", 1, {scale:1, opacity:0, delay:1, ease:Elastic.liner});
 	TweenMax.staggerFrom(".img2", 1, {width:0.1, opacity:1, delay:0.8, ease:Elastic.liner});
 	TweenMax.staggerFrom(".img1_3imgBox", 2, {scale:1, opacity:0, delay:1.5, ease:Elastic.liner});
-	TweenMax.staggerFrom(".img1_4imgBox", 2, {scale:1, opacity:0, delay:2.5, ease:Elastic.liner});
+	TweenMax.staggerFrom(".img1_4imgBox", 2, {scale:1, opacity:0, delay:2, ease:Elastic.liner});
 }
 imgAn1();
 
