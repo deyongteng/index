@@ -41,7 +41,7 @@ img{
     position: absolute;
     left: 0;
     top: 0;
-    // display: none;
+    display: none;
 }
 .img1_0imgBox{
     width: 280/@rem;
@@ -52,7 +52,12 @@ img{
     padding: 10px 10px;
     margin: 46/@rem auto 0 auto;
 }
-.img1_0imgBox>div>img{
+.imgBox{
+    width: 260/@rem;
+    height: 226/@rem;
+    margin: auto;
+}
+.imgBox>img{
     width: 260/@rem;
     height: 226/@rem;
     border-radius: 14px;
@@ -86,13 +91,19 @@ img{
 
 //第二屏
 .liBox2{
-    background-color:#FFF; 
+    display: block;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+     background: #FFF;
 }
-.img2_0imgBox,
-.img2_2imgBox{
+.img2_0imgBox{
     width: 100%;
     height: 212/@rem;
-    margin-top: 20/@rem;
+    position: relative;
+    left: 0;
+    top: 10%;
+    // -webkit-transform-style: preserve-3d;
+    // transform-style: preserve-3d;
 }
 .img2_1imgBox{
     width: 100%;
@@ -103,21 +114,13 @@ img{
     color: #404449;
     padding: 10/@rem 0/@rem;
 }
-.img2_2imgBox{
-    margin-top: 0/@rem;
-}
-.img2_0imgBox>span,
-.img2_2imgBox>span{
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 212/@rem;
-}
-.img2_0imgBox>span>span,
-.img2_2imgBox>span>span{
-    display: block;
+.img2_0imgBox>span{
     position: absolute;
     left: 0;
     top: 0;
-    animation: 4s rotateY linear infinite;
+    width: 300/@rem;
+    height: 212/@rem; 
+    display: block;
+    transform-origin:left top; 
+    // transition: 1s;
 }
