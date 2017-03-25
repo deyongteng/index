@@ -1,6 +1,8 @@
 document.addEventListener("touchstart",function(ev){
 	ev.preventDefault();
-})
+},{
+	passive:false
+});
 var datas=[];
 var nub=0;
 for(var s in data){
@@ -35,6 +37,7 @@ function quange(){
 	
 	$(".bgm").attr("src",audioM[0]);
 	bgm.play();
+	bgm.loop="loop";
 	bgmBox.addEventListener("touchstart",function(ev){
 		ev.stopPropagation();
 		if(off){
@@ -194,8 +197,8 @@ function quange(){
 	html6+="</ul>";
 	JQ_box.append(html6);
 	function diliuPinAnmi(){
-		TweenMax.staggerFrom(".diliupin1", 2, {x:270, scale:1, opacity:1, rotation:0,  delay:1, ease:Elastic.liner});
-		TweenMax.staggerFrom(".diliupin2", 2, {x:-270, scale:1, opacity:1, rotation:0,  delay:1, ease:Elastic.liner});
+		TweenMax.staggerFrom(".diliupin1", 2, {x:260, scale:1, opacity:1, rotation:0,  delay:1, ease:Elastic.liner});
+		TweenMax.staggerFrom(".diliupin2", 2, {x:-260, scale:1, opacity:1, rotation:0,  delay:1, ease:Elastic.liner});
 		TweenMax.staggerFrom(".diliupin3", 2, {y:-170, scale:1, opacity:0, rotation:0,  delay:1, ease:Elastic.liner});
 		TweenMax.staggerFrom(".diliupin4", 2, {y:170, scale:1, opacity:0, rotation:0,  delay:1, ease:Elastic.liner});
 		TweenMax.staggerFrom(".left", 1, {x:-170, scale:1, opacity:1, rotation:0,  delay:2, ease:Elastic.liner});
