@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+		<script type="text/javascript">
+			window.onload=function(){
+				var fz=document.documentElement.clientWidth/20;
+				document.getElementsByTagName("html")[0].style.fontSize=fz+"px";
+			}
+		</script>
+	</head>
+	<body>
+		<div id="logdin">
+			<div class="logdImg">
+				<img src="img/img1/bg.jpg" />
+			</div>
+			<div class="logdBox">
+				<span class="text">甜蜜即将开始:</span>
+			</div>
+		</div>
+		<div class="bgmBox">
+				<span class="bgmImg">
+				<img src="img/bgmimg.png" />
+			</span>
+			<audio class="bgm" loop="loop"></audio>
+		</div>
+		<div id="box"></div>
+		<script src="js/jquery-3.1.1.js"></script>
+		<script src="js/m.tdy.Tween.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/data.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
