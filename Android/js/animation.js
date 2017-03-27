@@ -1,3 +1,9 @@
+document.addEventListener("touchstart",function(ev){
+	ev.preventDefault();
+},{
+	passive:false;
+})
+
 function animationD(){
 	$(".use").eq(2).append("<div class='animatiBox'></div>");
 	$('.animatiBox').append(animati);
@@ -6,7 +12,6 @@ function animationD(){
 	function setLoding(){
 		var data=[];
 		var nub=0;
-		
 		for(var s in animation){
 			data=data.concat(animation[s]);
 		}

@@ -104,18 +104,6 @@ function qqIndex(){
         }
     });
 	
-	//阻止冒泡
-//	document.querySelectorAll('input').forEach(function(obj){
-//	  obj.addEventListener('touchstart', function(ev) {
-//	    ev.stopPropagation();
-//	  }, false);
-//	});
-//	
-//	document.querySelectorAll('a').forEach(function(obj){
-//	  obj.addEventListener('touchstart', function(ev) {
-//	    ev.stopPropagation();
-//	  }, false);
-//	});
 	
 	//登录验证
 	$(".subm").on("touchstart",function(){
