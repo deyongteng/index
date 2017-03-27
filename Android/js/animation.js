@@ -1,10 +1,10 @@
-document.addEventListener("touchstart",function(ev){
-	ev.preventDefault();
-},{
-	passive:false;
-})
-
 function animationD(){
+	document.addEventListener("touchstart",function(ev){
+		ev.preventDefault();
+	},{
+		passive:false
+	});
+
 	$(".use").eq(2).append("<div class='animatiBox'></div>");
 	$('.animatiBox').append(animati);
 	var loading=$('.animatiBox').append(loadingHtml);
