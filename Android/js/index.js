@@ -2,11 +2,6 @@ var obj = {
 	onoff:true
 };
 ;(function(){
-	document.addEventListener("touchstart",function(ev){
-		ev.preventDefault();
-	},{
-		passive:false
-	});
 	var now = new Date();
 	var h = now.getHours();
 	var m = now.getMinutes();
