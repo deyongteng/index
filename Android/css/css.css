@@ -490,9 +490,8 @@ img {
   height: 5rem;
   border-radius: 50% ;
   border: 1px solid #fff;
-  background-size:180% 180% ;
-  background-position: center -10px;
-  background-repeat:no-repeat ;
+  background-position: center -12px;
+  background-size: 180% 180%;
   margin-top: 6%;
 }
 .textBox {
@@ -852,7 +851,7 @@ h3 {
 .topT > span:nth-of-type(1) {
   width: 1.5625rem;
   height: 1.5625rem;
-  background-position: center 0;
+  background-position: center -5px;
   background-size: 200%;
   background-repeat: no-repeat;
   border-radius: 50%;
