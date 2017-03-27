@@ -262,7 +262,7 @@ function qqIndex(){
 	
 	var spanS="";
 	for (var i = 0; i < GradeImg.length; i++) {
-		spanS+="<span class='Grade' style='background-image:url("+GradeImg[i]+")'></span>"
+		spanS+="<span class='Grade' style='background-image:url("+GradeImg[i]+")'></span>";
 	}
 	$('.styleDengj').append(spanS);
 	$('.dataBox').find("p").html(explain[0]);
