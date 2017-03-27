@@ -66,6 +66,17 @@ function qqIndex(){
 	var tK2="<div class='bouncedBox2'><span class='tanK2'>i</span><span></span></div>";
 	$(".logon1").append(tK2);
 	
+	//阻止冒泡
+	document.querySelectorAll('input').forEach(function(obj){
+	  obj.addEventListener('touchstart', function(ev) {
+	    ev.stopPropagation();
+	  }, false);
+	});
+	document.querySelectorAll('a').forEach(function(obj){
+	  obj.addEventListener('touchstart', function(ev) {
+	    ev.stopPropagation();
+	  }, false);
+	});
 	//显示/隐藏 清空按钮
 	var delet1=$(".inpu").find("span").eq(0);
 	var delet2=$(".inpu").find("span").eq(1);
