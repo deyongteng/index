@@ -83,7 +83,7 @@ var  animation={
 				name:[
 					"./animation/img3/border.png",
 					"./animation/img3/img.jpg",
-					["滕德勇"],
+					["Jack"],
 				],
 				img4:[
 					"./animation/img4/bg1.png",

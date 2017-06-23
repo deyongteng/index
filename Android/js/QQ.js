@@ -41,7 +41,10 @@ function qqIndex(){
 	
 	//同款条例
 	var spans=$(".skewBox").find("span");
-	var onffo=true;
+	var onffo=false;
+    $(".subm").css("color","#fff")
+    spans.eq(0).css("background-image","url(./img/yes.png)");
+    spans.eq(0).css("border-color","rgba(0,0,0,0)");
 	spans.eq(0).on("touchstart",function(){
 		if(onffo){
 			$(".subm").css("color","#fff")
